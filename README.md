@@ -1,1 +1,33 @@
-# risk-management
+### Overview
+
+이 레포는 **리스크관리**와 관련된 다양한 자료, 논문들을 정리하여 요약 및 리뷰를 하는 모음입니다.
+
+본 내용과 관련해서 질문이나 feedback은 [Issue](https://github.com/keywoongbae/all-about-risk-management/issues) 탭을 이용해주세요.
+
+<hr>
+
+#### Paper reviews
+
+- **The Drivers of Cyber risk (*JFS 2022*)**
+  - [Paper PDF](./PDF/Aldasoro_JFS_2022.pdf) | [Paper Review](./MARKDOWN/Aldasoro_et_al_JRS_2022.md) | Cyber risk
+- **Building resilience in Cybersecurity: An artificial lab approach (*JRI 2022*)**
+  - [Paper PDF]() | [Paper Review](./MARKDOWN/Awiszus_et_al_JRI_2023) | Cyber risk
+- **The Economic Impact of Extreme Cyber Risk Scenarios (*NAAJ 2022*)**
+  - [Paper PDF](./PDF/Eling_NAAJ_2022.pdf) | [Paper Review](./MARKDOWN/Martin_eling_et_al_NAAJ_2023) | Cyber risk, Scenario analysis
+
+<hr>
+
+#### Journals & Conferences
+
+- **Journal** [**Impact Factor**]
+  - [Journal of Risk and Uncertainty](https://www.springer.com/journal/11166) [**3.977**]
+  - [Journal of Financial Stability](https://www.sciencedirect.com/journal/journal-of-financial-stability) [**3.554**]
+  - [Annals of Actuarial Science (AAS)](https://www.cambridge.org/core/journals/annals-of-actuarial-science) [**2.00**]
+  - [Insurance: Mathematics and Economics (IME)]() [**1.933**]
+  - [Journal of Risk and Insurance (JRI)](https://onlinelibrary.wiley.com/journal/15396975) [**1.90**]
+  - [SAJ (Scandinavian Actuarial Journal)](https://www.tandfonline.com/toc/sact20/current) [**1.782**]
+  - [NAAJ (North American Actuarial Journal)](https://www.tandfonline.com/toc/uaaj20/current) [**0.59**]
+  
+
+- **Conference**
+  - [American Risk & Insurance Association (ARIA)](https://www.aria.org/)
