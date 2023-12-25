@@ -6,18 +6,20 @@
 
 <hr>
 
-#### Paper reviews
+### Paper reviews
+
 
 - **The Drivers of Cyber risk (*JFS 2022*)**
   - [Paper PDF](./PDF/Aldasoro_JFS_2022.pdf) | [Paper Review](./MARKDOWN/Aldasoro_et_al_JRS_2022.md) | Cyber risk
 - **Building resilience in Cybersecurity: An artificial lab approach (*JRI 2022*)**
-  - [Paper PDF]() | [Paper Review](./MARKDOWN/Awiszus_et_al_JRI_2023) | Cyber risk
+  - [Paper PDF](./PDF/Awiszus_et_al_JRI_2023.pdf) | [Paper Review](./MARKDOWN/Awiszus_et_al_JRI_2023.md) | Cyber risk
 - **The Economic Impact of Extreme Cyber Risk Scenarios (*NAAJ 2022*)**
-  - [Paper PDF](./PDF/Eling_NAAJ_2022.pdf) | [Paper Review](./MARKDOWN/Martin_eling_et_al_NAAJ_2023) | Cyber risk, Scenario analysis
+  - [Paper PDF](./PDF/Eling_NAAJ_2022.pdf) | [Paper Review](./MARKDOWN/Martin_eling_et_al_NAAJ_2023.md) | Cyber risk, Scenario analysis
 
 <hr>
 
-#### Journals & Conferences
+### Journals & Conferences
+
 
 - **Journal** [**Impact Factor**]
   - [Journal of Risk and Uncertainty](https://www.springer.com/journal/11166) [**3.977**]
@@ -28,6 +30,5 @@
   - [SAJ (Scandinavian Actuarial Journal)](https://www.tandfonline.com/toc/sact20/current) [**1.782**]
   - [NAAJ (North American Actuarial Journal)](https://www.tandfonline.com/toc/uaaj20/current) [**0.59**]
   
-
 - **Conference**
   - [American Risk & Insurance Association (ARIA)](https://www.aria.org/)
