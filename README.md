@@ -16,6 +16,9 @@
 - **The Economic Impact of Extreme Cyber Risk Scenarios (*NAAJ 2022*)**
   - [Paper PDF](./PDF/Eling_NAAJ_2022.pdf) | [Paper Review](./MARKDOWN/Martin_eling_et_al_NAAJ_2023.md) | Cyber risk, Scenario analysis
 
+- **Methodological Principles of Insurance Stress Testing**
+  - [Paper PDF](./PDF/Eiopa_2023.pdf) | [Paper Review](./MARKDOWN/Eiopa_2023.md) | Cyber risk, Scenario analysis
+
 <hr>
 
 ### Journals & Conferences
