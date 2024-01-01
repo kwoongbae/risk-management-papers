@@ -10,7 +10,6 @@
 
 
 - **A Neural Network Extension of the Lee-Carter Model to Multiple Populations (*AAS 2021*)**
-
   - [Paper PDF](./PDF/Richman_AAS_2021.pdf) | [Paper Review](./MARKDOWN/Richman_AAS_2021.md) | Lee-carter, morality rates
 - **The Drivers of Cyber risk (*JFS 2022*)**
   - [Paper PDF](./PDF/Aldasoro_JFS_2022.pdf) | [Paper Review](./MARKDOWN/Aldasoro_et_al_JRS_2022.md) | Cyber risk
