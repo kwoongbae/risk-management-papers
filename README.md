@@ -18,7 +18,6 @@
 - **The Economic Impact of Extreme Cyber Risk Scenarios (*NAAJ 2022*)**
   - [Paper PDF](./PDF/Eling_NAAJ_2022.pdf) | [Paper Review](./MARKDOWN/Martin_eling_et_al_NAAJ_2023.md) | Cyber risk, Scenario analysis
 - **Cyber Risk Scenarios, the Financial System, and Systemic Risk Assessment (*Carnegie Endowment for International Peace 2019*)** 
-
   - [Paper PDF](./PDF/Kaffenberger_et_al_2019.pdf) | [Paper Review](./MARKDOWN/Kaffenberger_et_al_2019.md) | Cyber risk, Scenario analysis, Assessment Framework
 
 <hr>
