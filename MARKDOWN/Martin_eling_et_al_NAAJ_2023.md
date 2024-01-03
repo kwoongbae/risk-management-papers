@@ -4,7 +4,7 @@
 >
 > Authors : Martin Eling, Mauro Elvedi & Greg Falco
 >
-> Journal : North American Actuarial Journal
+> Journal : North American Actuarial Journal 2023
 
 ### 1. Motivation and Aim
 

@@ -1,26 +1,26 @@
 ## Cyber Risk Scenarios, the Financial System, and Systemic Risk Assessment
 
-> #### 궁금한 점
+> Title : Cyber Risk Scenarios, the Financial System, and Systemic Risk Assessment
 >
-> Q. Upstream Infrastructure란?
+> Authors : Lincoln Kaffenberger and Emanuel Kopp
 >
-> 
+> Journal : Carnegie Endowment for International Peace 2019
+>
+> Summary : 본 논문은 시나리오 분석 및 위험도 평가를 위한 프레임워크를 제안한다.
+>
+> - **Scenario Analysis의 기준은 다음과 같이 설정**
+>   - High-Impact Operational Risk Scenarios
+>   - Upstream Infrastructure Scenarios
+>   - External Shock Scenarios
+>
+> - **Conceptual Framework 구축 과정 내 주요 요인은 다음과 같이 설정**
+>   - Cyber Risk Exposure
+>   - Cybersecurity and Preparedness
+>   - Shock Resilience
 
-#### 본 보고서에 대한 설명
+### 용어 정리
 
-본 논문의 contribution : scenario analysis, 그리고 conceptual framework
-
-**Scenario Analysis의 기준은 다음과 같이 설정**
-
-- High-Impact Operational Risk Scenarios
-- Upstream Infrastructure Scenarios
-- External Shock Scenarios
-
-**Conceptual Framework 구축 과정 내 주요 요인은 다음과 같이 설정**
-
-- Cyber Risk Exposure
-- Cybersecurity and Preparedness
-- Shock Resilience
+- Upstream Infrastructure : 
 
 ### 1. Introduction
 

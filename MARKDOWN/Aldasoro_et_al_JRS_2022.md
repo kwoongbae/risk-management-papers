@@ -4,7 +4,7 @@
 >
 > Authors : Iñaki Aldasoro , Leonardo Gambacorta , Paolo Giudici , Thomas Leach
 >
-> Journal : Journal of Financial Stablility
+> Journal : Journal of Financial Stablility 2023
 >
 > 요약 : 두터운 꼬리 분포를 띄는 사이버리스크는 회사의 크기가 클수록, 사건이 우발적일수록(극단적인 케이스 제외), 디지털 사용 점유율(클라우드 서비스)이 클수록 커지며, 피싱/스키밍 분야의 사건이 cyber cost가 높다.
 

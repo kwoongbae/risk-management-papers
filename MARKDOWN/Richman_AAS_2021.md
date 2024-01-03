@@ -4,7 +4,7 @@
 >
 > Authors : Ronald Richman, Mario V. Wuthrich
 >
-> Journal : Annals of Actuarial Science
+> Journal : Annals of Actuarial Science 2021
 
 #### 논문 읽으면서 궁금한 점
 
