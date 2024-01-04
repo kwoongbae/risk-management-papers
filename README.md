@@ -13,12 +13,12 @@
   - [Paper PDF](./PDF/Richman_AAS_2021.pdf) | [Paper Review](./MARKDOWN/Richman_AAS_2021.md) | Lee-carter, morality rates
 - **The Drivers of Cyber risk (*JFS 2022*)**
   - [Paper PDF](./PDF/Aldasoro_JFS_2022.pdf) | [Paper Review](./MARKDOWN/Aldasoro_et_al_JRS_2022.md) | Cyber risk
-- **Building resilience in Cybersecurity: An artificial lab approach (*JRI 2022*)**
-  - [Paper PDF](./PDF/Awiszus_et_al_JRI_2023.pdf) | [Paper Review](./MARKDOWN/Awiszus_et_al_JRI_2023.md) | Cyber risk
 - **The Economic Impact of Extreme Cyber Risk Scenarios (*NAAJ 2022*)**
   - [Paper PDF](./PDF/Eling_NAAJ_2022.pdf) | [Paper Review](./MARKDOWN/Martin_eling_et_al_NAAJ_2023.md) | Cyber risk, Scenario analysis
 - **Cyber Risk Scenarios, the Financial System, and Systemic Risk Assessment (*CEIP 2019*)** 
   - [Paper PDF](./PDF/Kaffenberger_et_al_2019.pdf) | [Paper Review](./MARKDOWN/Kaffenberger_et_al_2019.md) | Cyber risk, Scenario analysis, Assessment Framework
+- **Building resilience in Cybersecurity: An artificial lab approach (*JRI 2023*)**
+  - [Paper PDF](./PDF/Awiszus_et_al_JRI_2023.pdf) | [Paper Review](./MARKDOWN/Awiszus_et_al_JRI_2023.md) | Cyber risk
 
 <hr>
 
