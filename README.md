@@ -20,7 +20,6 @@
 - **Building resilience in Cybersecurity: An artificial lab approach (*JRI 2023*)**
   - [Paper PDF](./PDF/Awiszus_et_al_JRI_2023.pdf) | [Paper Review](./MARKDOWN/Awiszus_et_al_JRI_2023.md) | Cyber resilience
 - **Methodological Principles of Insurance Stress Testing (EIOPA 2023)**
-
   - [Paper PDF](./PDF/Eiopa_2023.pdf) | [Paper Review](./MARKDOWN/Eiopa_2023.md) | Cyber risk, scenario analysis
 
 <hr>
