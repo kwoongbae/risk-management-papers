@@ -110,6 +110,7 @@
 
 - agent는 노드로, interaction channel은 엣지로 표현함.
 - ![image-20240104140611267](./imgs/image-20240104140611267.png)
+- ![image-20240105113813288](./imgs/image-20240105113813288.png)
 
 #### 3.1.1 Random network models
 
@@ -174,9 +175,9 @@ Centrality measure C는 네트워크 내 단일 노드/엣지의 구조적 중�
 본 섹션에서 진행할 내용
 
 - 본 연구에서 사용할 artificial cyber lab의 프레임워크 내에서의 보안 수준, 이익, 비용에 대한 적합한 모델 소개
-- security investment game 진행
+- **security investment game** 진행
   - 이를 통해 cyber network 내 상호의존성 효과를 확인할 예정
-- 보안 관련 개입을 네트워크 노드 간에 효율적으로 할당할 수 있는지 여부와 방법을 평가함.
+- 보안 관련 개입을 네트워크 노드 간에 **효율적으로 할당할 수 있는지 여부와 방법을 평가**함.
   - 이를 통해 사이버 시스템의 전반적인 안전성을 향상시킬 예정.
 
 #### 4.1 Security investments and strategic interaction
@@ -189,21 +190,54 @@ SIR 프레임워크를 따르는 cyber risk exposure of network의 파라미터�
 
 Security level인 $\gamma_i$는 두개의 함수 간 trade-off로 결정됨 : loss function & cost function
 
+- ![image-20240105151537708](./imgs/image-20240105151537708.png)
 - Cyber loss function : $L_i := L_i(\gamma_1, .., \gamma_N) := E[\int_{0}^{\infin} I_i(t) dt]$
   - 네트워크 에이전트의 상호연결성으로 인한 모든 노드 보안수준의 함수로, 특정 노드 $i$에서의 손실값 설명.
   - Cyber 손실의 양은 cyberattack을 당하는 기간과 관련있음.
   - security level이 $\gamma_1,..,\gamma_N$일 때, 특정 노드 $i$가 감염상태 $I$에 머무는 예상시간을 나타냄.
 - Cost function : $C_i(\gamma_i)$
-  - 특정 노드 $i$에 대한 보안수준 $\gamma_i$를 구현하는데 드는 비용을 계산
-  - $C(\gamma_i)$는 지수함수로 표현 : $C(\gamma_i)) = e^{k \gamma_i}-1, k>0$ (주로 $k$는 ${1}/{3}$으로 설정)
+  - **특정 노드 $i$에 대한 보안수준 $\gamma_i$를 구현하는데 드는 비용**을 계산
+  - $C(\gamma_i)$는 지수함수로 표현 : $C(\gamma_i) = e^{k \gamma_i}-1, k>0$ (주로 $k$는 ${1}/{3}$으로 설정)
     - convex함수 (target의 보안수준이 증가할 수록 cost는 더 빠르게 증가하므로)
     - $C(0)=0$
 
 이상적인 네트워크의 목적함수는 다음과 같음.
 
 - $\underset{\gamma}{\textbf{min}} \ \mathcal{E}_i(\gamma_1, .., \gamma_N) = \underset{\gamma}{\textbf{min}} \ C_i(\gamma_i)+L_i(\gamma_1, .., \gamma_N)$
-- $\mathcal{E}$ : total expenses
+- $\mathcal{E}_i(\gamma_1, .., \gamma_N)$ : total expenses
 - $\tau$=0.1로 고정, time은 $t=0$으로 설정, 노드는 랜덤으로 설정
 
 #### 4.1.1 Individually optimal security level
+
+만약 보안수준 $\gamma_i$가 총 비용 $\mathcal{E}_i()$를 최소화한다면, 이 보안수준은 최적의 security level임.
+
+- rational한 agent는 아래 식을 따르는 최적의 security level을 선택해야 함.
+- $\gamma_i^{\text{ind}}(\gamma_{-i}) := \underset{\gamma_i \in \{0, \infin)}{\text{argmin}}\ \mathcal{E}(\gamma_1, ..., \gamma_N)$
+
+#### 4.1.2 Strategic interaction of interdependent actors
+
+Security Investment game이란?
+
+- 새로운 위협상황이 발생하면, 노드가 일련의 전략적 상호작용을 시작하는 과정을 말함.
+- 각자 개별적으로 최적의 보안수준을 꾸준히 유지하는 것은 보안수준 $\gamma \in (0, \infin)^N$을 선택하여 $\forall i = 1,...,N: \gamma^{\text{ind}}_i(\gamma_{-i})=\gamma_i$를 선택하는 것임.
+- 이 게임의 안정상태 (steady state)는 내쉬평형 상태임.
+
+**Theorem 4.1 : Steady states of individually optimal security levels exist.**
+
+총 지출 $\mathcal{E}_i$는 $\gamma_i$에 대해 convex하며, 최저점을 가진다.
+
+- 이 game은 여러 라운드 $r=0,1,..,M$ 로 구성된 동적 게임으로 구현됨.
+- 모든 라운드 r에서 보안수준은 아래와 같은 고정벡터로 시작함.
+  - $\gamma(r) = (\gamma_1(r),\gamma_2(r),,..,\gamma_N(r))$
+
+**Theorem 4.2 : The security investment game**
+
+- 모든 노드 $i$에 대해 적절한 security level을 설정. 
+  - 초기 security level은 $\gamma(0)\in (0,\infin)^N$로 설정하며, 몇 라운드로 진행할지도 결정함.
+- 라운드는 $r=0$부터 시작해서 $\gamma_i(r+1)$을 계산. 
+  - $\gamma_i(r+1)=\underset{\gamma_i \in \{0, \infin)}{\text{argmin}}\ \mathcal{E}(\gamma_1(r),.., \gamma_{i-1}(r),\gamma_i,\gamma_{i+1}(r), ..., \gamma_N(r))$
+  - $\gamma(r+1)=(\gamma_1(r+1),\gamma_2(r+1),,.., \gamma_N(r+1))$
+- $r<M$이면 최적화를 계속 진행하고, $r=M$이면 output으로 도출함.
+
+#### 4.1.3 Complex network interactions
 
