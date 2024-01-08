@@ -18,7 +18,10 @@
 - **Cyber Risk Scenarios, the Financial System, and Systemic Risk Assessment (*CEIP 2019*)** 
   - [Paper PDF](./PDF/Kaffenberger_et_al_2019.pdf) | [Paper Review](./MARKDOWN/Kaffenberger_et_al_2019.md) | Cyber risk, Scenario analysis, Assessment Framework
 - **Building resilience in Cybersecurity: An artificial lab approach (*JRI 2023*)**
-  - [Paper PDF](./PDF/Awiszus_et_al_JRI_2023.pdf) | [Paper Review](./MARKDOWN/Awiszus_et_al_JRI_2023.md) | Cyber risk
+  - [Paper PDF](./PDF/Awiszus_et_al_JRI_2023.pdf) | [Paper Review](./MARKDOWN/Awiszus_et_al_JRI_2023.md) | Cyber resilience
+- **Methodological Principles of Insurance Stress Testing (EIOPA 2023)**
+
+  - [Paper PDF](./PDF/Eiopa_2023.pdf) | [Paper Review](./MARKDOWN/Eiopa_2023.md) | Cyber risk, scenario analysis
 
 <hr>
 
