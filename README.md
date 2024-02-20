@@ -22,7 +22,8 @@
 - **Methodological Principles of Insurance Stress Testing (EIOPA 2023)**
   - [Paper PDF](./PDF/Eiopa_2023.pdf) | [Paper Review](./MARKDOWN/Eiopa_2023.md) | *cyber risk, scenario analysis*
 - **What are the actual costs of cyber risk events? (EJOR 2019)**
-- [Paper PDF](./PDF/Eling_EJOR_2019.pdf) | [Paper Review](./MARKDOWN/Eling_EJOR_2019.md) | *cyber risk, Loss Distribution Approach*
+
+  - [Paper PDF](./PDF/Eling_EJOR_2019.pdf) | [Paper Review](./MARKDOWN/Eling_EJOR_2019.md) | *cyber risk, Loss Distribution Approach*
 
 <hr>
 
