@@ -239,7 +239,7 @@ Cybersecurity 측정 지표는 5개의 pillar로 이루어짐.
 
 Systemic Cyber Risk에 대한 회복력은 완충장치의 규모와 품질에 따라 달라진다.
 
-- ![image-20240103165522827](C:\Users\kwbae\OneDrive - postech.ac.kr\risk-management-papers\MARKDOWN\imgs\image-20240103165522827.png)
+- ![image-20240103165522827](./imgs/image-20240103165522827.png)
 
 #### Systemic Cyber Risk Index
 
