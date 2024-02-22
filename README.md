@@ -37,14 +37,15 @@
 
 
 - **Journal** [**Impact Factor**]
-  - [Journal of Risk and Uncertainty](https://www.springer.com/journal/11166) [**3.977**]
-  - [Journal of Financial Stability](https://www.sciencedirect.com/journal/journal-of-financial-stability) [**3.554**]
-  - [Annals of Actuarial Science (AAS)](https://www.cambridge.org/core/journals/annals-of-actuarial-science) [**2.00**]
-  - [Insurance: Mathematics and Economics (IME)]() [**1.933**]
-  - [Journal of Risk and Insurance (JRI)](https://onlinelibrary.wiley.com/journal/15396975) [**1.90**]
-  - [SAJ (Scandinavian Actuarial Journal)](https://www.tandfonline.com/toc/sact20/current) [**1.782**]
-  - [European Actuarial Journal(EAJ)](https://link.springer.com/journal/13385) **[1.2]**
-  - [NAAJ (North American Actuarial Journal)](https://www.tandfonline.com/toc/uaaj20/current) [**0.59**]
+  - ***EJOR*** [(European Journal of Operational Research)](https://www.sciencedirect.com/journal/european-journal-of-operational-research) **[6.4]**
+  - ***JRU*** [(Journal of Risk and Uncertainty)](https://www.springer.com/journal/11166) [**3.977**]
+  - ***JFS*** [(Journal of Financial Stability)](https://www.sciencedirect.com/journal/journal-of-financial-stability) [**3.554**]
+  - ***AAS*** [(Annals of Actuarial Science)](https://www.cambridge.org/core/journals/annals-of-actuarial-science) [**2.00**]
+  - ***IME*** [(Insurance: Mathematics and Economics)]() [**1.933**]
+  - ***JRI*** [(Journal of Risk and Insurance)](https://onlinelibrary.wiley.com/journal/15396975) [**1.90**]
+  - ***SAJ*** [(Scandinavian Actuarial Journal)](https://www.tandfonline.com/toc/sact20/current) [**1.782**]
+  - ***EAJ*** [(European Actuarial Journal)](https://link.springer.com/journal/13385) **[1.2]**
+  - ***NAAJ*** [(North American Actuarial Journal)](https://www.tandfonline.com/toc/uaaj20/current) [**0.59**]
   
 - **Conference**
-  - [American Risk & Insurance Association (ARIA)](https://www.aria.org/)
+  - ***ARIA*** [(American Risk & Insurance Association)](https://www.aria.org/)
