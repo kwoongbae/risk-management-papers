@@ -1,8 +1,8 @@
 ### Overview
 
-이 레포는 **리스크관리**와 관련된 다양한 자료, 논문들을 정리하여 요약 및 리뷰를 하는 모음입니다.
+- 이 레포는 **리스크관리**와 관련된 다양한 자료, 논문들을 정리하여 요약 및 리뷰를 하는 모음입니다.
 
-본 내용과 관련해서 질문이나 feedback은 [Issue](https://github.com/keywoongbae/risk-management-papers/issues) 탭을 이용해주세요.
+- 본 내용과 관련해서 질문이나 feedback은 [Issue](https://github.com/keywoongbae/risk-management-papers/issues) 탭을 이용해주세요.
 
 <hr>
 
@@ -10,19 +10,26 @@
 
 
 - **A Neural Network Extension of the Lee-Carter Model to Multiple Populations (*AAS 2021*)**
-  - [Paper PDF](./PDF/Richman_AAS_2021.pdf) | [Paper Review](./MARKDOWN/Richman_AAS_2021.md) | *Lee-carter, morality rates, neural network*
+  - [Paper PDF](./PDF/Richman_AAS_2021.pdf) | [Paper Review](./MARKDOWN/Richman_AAS_2021.md) 
+  - *Lee-carter, morality rates, neural network*
 - **The Drivers of Cyber risk (*JFS 2022*)**
-  - [Paper PDF](./PDF/Aldasoro_JFS_2022.pdf) | [Paper Review](./MARKDOWN/Aldasoro_et_al_JRS_2022.md) | *Cyber risk*
+  - [Paper PDF](./PDF/Aldasoro_JFS_2022.pdf) | [Paper Review](./MARKDOWN/Aldasoro_et_al_JRS_2022.md)
+  - *Cyber risk*
 - **The Economic Impact of Extreme Cyber Risk Scenarios (*NAAJ 2022*)**
-  - [Paper PDF](./PDF/Eling_NAAJ_2022.pdf) | [Paper Review](./MARKDOWN/Martin_eling_et_al_NAAJ_2023.md) | *Cyber risk, Scenario analysis*
+  - [Paper PDF](./PDF/Eling_NAAJ_2022.pdf) | [Paper Review](./MARKDOWN/Eling_NAAJ_2022.md)
+  - *Cyber risk, Scenario analysis*
 - **Cyber Risk Scenarios, the Financial System, and Systemic Risk Assessment (*CEIP 2019*)** 
-  - [Paper PDF](./PDF/Kaffenberger_et_al_2019.pdf) | [Paper Review](./MARKDOWN/Kaffenberger_et_al_2019.md) | *Cyber risk, Scenario analysis, Assessment Framework*
+  - [Paper PDF](./PDF/Kaffenberger_et_al_2019.pdf) | [Paper Review](./MARKDOWN/Kaffenberger_et_al_2019.md) 
+  - *Cyber risk, Scenario analysis, Assessment Framework*
 - **Building resilience in Cybersecurity: An artificial lab approach (*JRI 2023*)**
-  - [Paper PDF](./PDF/Awiszus_et_al_JRI_2023.pdf) | [Presentation PDF](./PPT/Seminar_20240125.pdf) | [Paper Review](./MARKDOWN/Awiszus_et_al_JRI_2023.md) | *cyber lab*
+  - [Paper PDF](./PDF/Awiszus_et_al_JRI_2023.pdf) | [Presentation PDF](./PPT/Seminar_20240125.pdf) | [Paper Review](./MARKDOWN/Awiszus_et_al_JRI_2023.md) 
+  - *cyber lab*
 - **Methodological Principles of Insurance Stress Testing (*EIOPA 2023*)**
-  - [Paper PDF](./PDF/Eiopa_2023.pdf) | [Paper Review](./MARKDOWN/Eiopa_2023.md) | *cyber risk, scenario analysis*
+  - [Paper PDF](./PDF/Eiopa_2023.pdf) | [Paper Review](./MARKDOWN/Eiopa_2023.md) 
+  - *cyber risk, scenario analysis*
 - **What are the actual costs of cyber risk events? (*EJOR 2019*)**
-  - [Paper PDF](./PDF/Eling_EJOR_2019.pdf) | [Paper Review](./MARKDOWN/Eling_EJOR_2019.md) | *cyber risk, Loss Distribution Approach*
+  - [Paper PDF](./PDF/Eling_EJOR_2019.pdf) | [Paper Review](./MARKDOWN/Eling_EJOR_2019.md) 
+  - *cyber risk, Loss Distribution Approach*
 
 <hr>
 
