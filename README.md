@@ -11,10 +11,10 @@
 
 - **A Neural Network Extension of the Lee-Carter Model to Multiple Populations (*AAS 2021*)**
   - [Paper PDF](./Paper/Richman_AAS_2021.pdf) | [Paper Review](./Review/Richman_AAS_2021.md) 
-  - *Lee-carter, morality rates, neural network*
+  - *Predicted the morality rates of HMD dataset using Lee-carter model, Augmented Common Factor (ACF), Common Age Effect (CAE),  and Deep Neural Network (FNN).*
 - **The Drivers of Cyber risk (*JFS 2022*)**
   - [Paper PDF](./Paper/Aldasoro_JFS_2022.pdf) | [Paper Review](./Review/Aldasoro_et_al_JRS_2022.md)
-  - *Cyber risk*
+  - *Explained the relationship between cyber risk loss and independent variables such as sector, risk type, company size, and maliciousness based on Advisen dataset.*
 - **The Economic Impact of Extreme Cyber Risk Scenarios (*NAAJ 2022*)**
   - [Paper PDF](./Paper/Eling_NAAJ_2022.pdf) | [Paper Review](./Review/Eling_NAAJ_2022.md)
   - *Cyber risk, Scenario analysis*
