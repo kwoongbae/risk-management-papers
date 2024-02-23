@@ -23,7 +23,7 @@
   - *Cyber risk, Scenario analysis, Assessment Framework*
 - **Building resilience in Cybersecurity: An artificial lab approach (*JRI 2023*)**
   - [Paper PDF](./Paper/Awiszus_et_al_JRI_2023.pdf) | [Presentation PDF](./Presentation/Seminar_20240125.pdf) | [Paper Review](./Review/Awiszus_et_al_JRI_2023.md) 
-  - *Reproduced cyber risks with **network topology(Cyber Lab)** and simulated their severity.*
+  - *Reproduced cyber risks with <u>network topology (digital twin)</u> and simulated their severity.*
 - **Methodological Principles of Insurance Stress Testing (*EIOPA 2023*)**
   - [Paper PDF](./Paper/Eiopa_2023.pdf) | [Paper Review](./Review/Eiopa_2023.md) 
   - *cyber risk, scenario analysis*
@@ -49,3 +49,4 @@
 
 - **Conference**
   - ***ARIA*** [(American Risk & Insurance Association)](https://www.aria.org/)
+  - ***APRIA*** ([Asia-Pacific Risk and Insurance Association](https://www.apria.org/))
