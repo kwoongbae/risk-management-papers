@@ -28,7 +28,7 @@
   - [Paper PDF](./Paper/Eiopa_2023.pdf) | [Paper Review](./Review/Eiopa_2023.md) 
   - *cyber risk, scenario analysis*
 - **What are the actual costs of cyber risk events? (*EJOR 2019*)**
-  - [Paper PDF](./Paper/Eling_EJOR_2019.pdf) | [Paper Review](./Review/Eling_EJOR_2019.md) 
+  - [Paper PDF](./Paper/Eling_EJOR_2019.pdf) | [Paper Review](./Review/Eling_EJOR_2019.md) | [Code Review](./Code/Eling_et_al_EJOR_2019.r)
   - *cyber risk, Loss Distribution Approach*
 
 <hr>
@@ -46,6 +46,6 @@
   - ***SAJ*** [(Scandinavian Actuarial Journal)](https://www.tandfonline.com/toc/sact20/current) [**1.782**]
   - ***EAJ*** [(European Actuarial Journal)](https://link.springer.com/journal/13385) **[1.2]**
   - ***NAAJ*** [(North American Actuarial Journal)](https://www.tandfonline.com/toc/uaaj20/current) [**0.59**]
-  
+
 - **Conference**
   - ***ARIA*** [(American Risk & Insurance Association)](https://www.aria.org/)
