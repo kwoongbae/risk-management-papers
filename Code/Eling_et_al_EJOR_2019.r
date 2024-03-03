@@ -1,39 +1,86 @@
+# ===================================================
+# 1. Import libraries and SAS OpRisk Global dataset
+# ===================================================
+
 library("rlang")
 library("ggplot2")
-library("MASS")
-library("fitdistrplus")
+library("MASS") # import plotdist
+library("fitdistrplus") #fitdist
+library("lubridate") # transform to ymd
+library("EnvStats") # import eexp
+library("POT") # import fitgpd
+library("extraDistr")
+library("actuar") # fitdist on log-logistic
+library("sn") # import snormFit
+library("fGarch") # snormFit
 
 sas <- read.csv("./dataset/SAS.csv")
+sas$Month...Year.of.Settlement <- ymd(sas$Month...Year.of.Settlement)
+sas <- subset(sas, Month...Year.of.Settlement < ymd("2014-03-01"))
+sas <- subset(sas, Month...Year.of.Settlement > ymd("1995-01-01"))
 sas <- sas[sas$cyber_risk==1,]
-colnames(sas)
+length(sas$Loss.Amount...M.) # Length is 1593 (In Eling 2019, length is 1579)
 
-sas.loss <- sas$Loss.Amount...M.
-length(sas.loss)
+# ===================================================
+# 2. Goodness-of-fit analysis : severity
+# ===================================================
 
-plotdist(sas.loss)
+loss <- sas$Loss.Amount...M.
+plotdist(loss)
 
-lnorm_model <- fitdist(sas.loss, "lnorm", method = "mle") # log-normal
-llnorm.loglik <- lnorm_model$loglik
+# Fit on Exponential distribution
+exp.model <- eexp(loss, method = "mle") # rate = 0.02770837
+exp.loglik <- sum(dexp(x=loss, rate = exp.model$param["rate"], log=T))
+exp.loglik # -7305.53 (In paper, -7535.78)
 
-llnorm.loglik
+# Fit on Gamma distribution
+gam.model <- egamma(loss, method = "mle") # shape=0.2416648, scale=149.3397808
+gam.loglik <- sum(dgamma(x=loss, shape = gam.model$param["shape"], scale = gam.model$param["scale"], log=T))
+gam.loglik # -5183.15 (In paper, -5368.23)
 
-sort(sas.loss)
+# Fit on GPD distribution
+gpd.u <- quantile(loss, probs = 0.9, type = 1)
+gpd.model <- fitgpd(loss, gpd.u, "mle") #scale=60.9383, shape=0.9742
+gpd.loglik <- sum(
+    dgpd(x=loss, gpd.u, gpd.model$param["scale"], gpd.model$param["shape"], log = T)
+)
+gpd.loglik # -Inf (In paper, -4553.42)
 
-total_rows <- length(sort(sas.loss))
-number.90 <- round(total_rows * 0.9)
-sas.loss.90 <- sort(sas.loss)[1:number.90]
+# Fit on Log-logistic distribution
+llogis_model <- fitdist(loss, "llogis", method = "mle") #shape=0.868823, scale=1.591586
+llogis.loglik <- llogis_model$loglik
+llogis.loglik # -4399.835 (In paper, -4588.09)
 
-lnorm_model.90 <- fitdist(sas.loss.90, "lnorm", method = "mle") # log-normal
-llnorm.90.loglik <- lnorm_model.90$loglik
-llnorm.90.loglik
+# Fit on Weibull distribution
+wei_model <- fitdist(loss, "weibull", method = "mle")
+weibull.loglik <- wei_model$loglik
+weibull.loglik # -4700.99 (In paper, -4886.78)
 
-lnorm_model.90$aic
+# Fit on Skew-normal distribution
+snorm_model <- snormFit(loss)
+snorm.loglik <- sum(
+    dsnorm(x=loss, 
+           mean=snorm_model$par["mean"], 
+           sd=snorm_model$par["sd"],
+           xi=snorm_model$par["xi"], log=T)
+)
+snorm.loglik # -10503.05
 
-number.56 <- round(total_rows * 0.56)
-sas.loss.56 <- sort(sas.loss)[1:number.56]
+# ===================================================
+# 2.1 Goodness-of-fit analysis : severity with POT 56%
+# ===================================================
 
-lnorm_model.56 <- fitdist(sas.loss.56, "lnorm", method = "mle") # log-normal
-llnorm.56.loglik <- lnorm_model.56$loglik
-llnorm.56.loglik
+loss.56 <- sort(loss)[1:round(length(loss)*0.56)]
+loss.44 <- sort(loss)[round(length(loss)*0.56+1):round(length(loss))]
+plotdist(loss.56)
+plotdist(loss.44)
+
+# Fit on GPD distribution (Tail 44% distribution)
+gpd.u <- quantile(loss, probs = 0.59, type = 1)
+gpd.model <- fitgpd(loss.44, gpd.u, "mle") #scale=60.9383, shape=0.9742
+gpd.loglik <- sum(
+    dgpd(x=loss, gpd.u, gpd.model$param["scale"], gpd.model$param["shape"], log = T)
+)
+gpd.loglik # -Inf (In paper, -4553.42)
 
 

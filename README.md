@@ -2,9 +2,9 @@
 
 - 이 레포는 **리스크관리**와 관련된 다양한 자료, 논문들을 정리하여 요약 및 리뷰를 하는 모음입니다.
 
-- 본 내용과 관련해서 질문이나 feedback은 [Issue](https://github.com/keywoongbae/risk-management-papers/issues) 탭을 이용해주세요.
+- 본 내용과 관련해서 질문이나 feedback은 [Issue](https://github.com/keywoongbae/risk-management-papers/issues/new) 탭을 이용해주세요.
 
-<hr>
+---
 
 ### Paper reviews
 
@@ -20,10 +20,10 @@
   - *Cyber risk, Scenario analysis*
 - **Cyber Risk Scenarios, the Financial System, and Systemic Risk Assessment (*CEIP 2019*)** 
   - [Paper PDF](./Paper/Kaffenberger_et_al_2019.pdf) | [Paper Review](./Review/Kaffenberger_et_al_2019.md) 
-  - *Cyber risk, Scenario analysis, Assessment Framework*
+  - *Proposed a scenario analysis method based on the magnitude of cyber risk and a framework for risk assessment.*
 - **Building resilience in Cybersecurity: An artificial lab approach (*JRI 2023*)**
   - [Paper PDF](./Paper/Awiszus_et_al_JRI_2023.pdf) | [Presentation PDF](./Presentation/Seminar_20240125.pdf) | [Paper Review](./Review/Awiszus_et_al_JRI_2023.md) 
-  - *Reproduced cyber risks with <u>network topology (digital twin)</u> and simulated their severity.*
+  - *Reproduced cyber risks with network topology (digital twin) and simulated their severity.*
 - **Methodological Principles of Insurance Stress Testing (*EIOPA 2023*)**
   - [Paper PDF](./Paper/Eiopa_2023.pdf) | [Paper Review](./Review/Eiopa_2023.md) 
   - *cyber risk, scenario analysis*
@@ -31,7 +31,7 @@
   - [Paper PDF](./Paper/Eling_EJOR_2019.pdf) | [Paper Review](./Review/Eling_EJOR_2019.md) | [Code Review](./Code/Eling_et_al_EJOR_2019.r)
   - *cyber risk, Loss Distribution Approach*
 
-<hr>
+---
 
 ### Journals & Conferences
 
