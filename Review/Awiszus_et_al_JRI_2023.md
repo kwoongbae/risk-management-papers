@@ -5,17 +5,8 @@
 > Authors : Kerstin Awiszus, Yannick Bell, Jan Lüttringhaus, Gregor Svindland, Alexander Voß, Stefan Weber
 >
 > Journal : Journal of Risk and Insurance 2023
->
-> Summary : Data twin
->
-> - Purpose : 
-> - How : 
-> - Contribution of this paper : 
 
-#### 용어 정리
-
-- Digital Twin : 객체가 있고, 그 객체에 대한 가상의 객체를 만들어서 두 객체를 데이터로 연결하는 것.
-- Lab : 
+---
 
 ### 1. Introduction
 

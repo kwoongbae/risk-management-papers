@@ -1,7 +1,7 @@
 ### Overview
 
 - 이 레포는 **리스크관리**와 관련된 다양한 자료, 논문들을 정리하여 요약 및 리뷰를 하는 모음입니다.
-- 통계학 기반의 보험 및 리스크관리 기법들을 다룬 논문들을 공부하며, 사이버리스크와 자연재해리스크를 중점적으로 다룹니다.
+- 통계학 기반의 보험 및 리스크관리 기법들을 다룬 논문들을 공부하며, 사이버리스크와 자연재해 리스크를 중점적으로 다룹니다.
 
 ---
 
@@ -9,34 +9,38 @@
 
 
 - **A Neural Network Extension of the Lee-Carter Model to Multiple Populations (*AAS 2021*)**
-  - [Paper PDF](./Paper/Richman_AAS_2021.pdf) | [Paper Review](./Review/Richman_AAS_2021.md) 
-  - *Predicted the morality rates of HMD dataset using Lee-carter model, Augmented Common Factor (ACF), Common Age Effect (CAE),  and Deep Neural Network (FNN).*
-- **The Drivers of Cyber risk (*JFS 2022*)** ⭐
+  - [Paper PDF](./Paper/Richman_AAS_2021.pdf) | [Paper Review](./Review/Richman_AAS_2021.md)
+  - *This paper predicted the morality rates of HMD dataset using Lee-carter model, Augmented Common Factor (ACF), Common Age Effect (CAE),  and Deep Neural Network (fully-connected).*
+- **The Drivers of Cyber risk (*JFS 2022*)** `actuarial-science`
   - [Paper PDF](./Paper/Aldasoro_JFS_2022.pdf) | [Paper Review](./Review/Aldasoro_et_al_JRS_2022.md)
-  - *Explained the relationship between cyber risk loss and independent variables such as sector, risk type, company size, and maliciousness based on Advisen dataset.*
+  - *This paper explained the relationship between cyber risk loss and independent variables such as sector, risk type, company size, and maliciousness based on **Advisen dataset.***
 - **The Economic Impact of Extreme Cyber Risk Scenarios (*NAAJ 2022*)**
   - [Paper PDF](./Paper/Eling_NAAJ_2022.pdf) | [Paper Review](./Review/Eling_NAAJ_2022.md)
-  - *Cyber risk, Scenario analysis*
+  - *This paper designed the **6 scenarios based on the most significant cyberattacks threats** (Supervisory control, Cloud service failure, Health sector and hospitals, Municipal services, Telecommunication, Cross-sector attack) and estimated the economic affects using **Inoperability Input-Output Model**.*
 - **Cyber Risk Scenarios, the Financial System, and Systemic Risk Assessment (*CEIP 2019*)** 
   - [Paper PDF](./Paper/Kaffenberger_et_al_2019.pdf) | [Paper Review](./Review/Kaffenberger_et_al_2019.md) 
-  - *Proposed a scenario analysis method based on the magnitude of cyber risk and a framework for risk assessment.*
+  - *This paper proposed a **scenario analysis method based on the magnitude of cyber risk** (High-Impact Operational Risk Scenarios, Upstream Infrastructure Scenarios, and External Shock Scenarios) and a framework for risk assessment (Cyber Risk Exposure $-$ Cybersecurity Preparedness $-$ Shock Resilience $=$ **Systemic Cyber Risk Score**)* 
 - **Building resilience in Cybersecurity: An artificial lab approach (*JRI 2023*)**
   - [Paper PDF](./Paper/Awiszus_et_al_JRI_2023.pdf) | [Presentation PDF](./Presentation/Seminar_20240125.pdf) | [Paper Review](./Review/Awiszus_et_al_JRI_2023.md) 
-  - *Reproduced cyber risks with network topology (digital twin) and simulated their severity.*
+  - *This paper reproduced cyber risks with network topology (digital twin) and simulations.*
 - **Methodological Principles of Insurance Stress Testing (*EIOPA 2023*)**
   - [Paper PDF](./Paper/Eiopa_2023.pdf) | [Paper Review](./Review/Eiopa_2023.md) 
-  - *cyber risk, scenario analysis*
-- **What are the actual costs of cyber risk events? (*EJOR 2019*)** ⭐
-  - [Paper PDF](./Paper/Eling_EJOR_2019.pdf) | [Paper Review](./Review/Eling_EJOR_2019.md) | [Code Review](./Code/Eling_et_al_EJOR_2019.r) 
-  - *cyber risk, Loss Distribution Approach*
+  - *This paper designed the **scenarios based on risk factors of 5 cyber incidents** (Data Center/Infrastructure damage, Ransomware, DoS, Data breach, and Power outage)*
+- **What are the actual costs of cyber risk events? (*EJOR 2019*)** `actuarial-science`
+  - [Paper PDF](./Paper/Eling_EJOR_2019.pdf) | [Code Review](./Code/Eling_et_al_EJOR_2019.r) 
+  - *This paper extracted cyber risk cases from operational risks, estimated the distribution of loss frequency/severity, and analyzed the factors of cyber risks.*
+- **Systemic Cyber Risk and Aggregate Impacts (*RISA 2021*)**
+
+  - [Paper PDF]() | [Paper Review](./Review/Welburn_RISA_2021.md)
 
 ---
 
-### Journals & Conferences
+### Academic Publications
 
 
-- **Journal** [**Impact Factor**]
+- **Journal** + **Impact factor**
   - ***EJOR*** [(European Journal of Operational Research)](https://www.sciencedirect.com/journal/european-journal-of-operational-research) **[6.4]**
+  - ***RISA*** [(RISk Analysis)](https://onlinelibrary.wiley.com/journal/15396924) **[4.302]**
   - ***JRU*** [(Journal of Risk and Uncertainty)](https://www.springer.com/journal/11166) [**3.977**]
   - ***JFS*** [(Journal of Financial Stability)](https://www.sciencedirect.com/journal/journal-of-financial-stability) [**3.554**]
   - ***AAS*** [(Annals of Actuarial Science)](https://www.cambridge.org/core/journals/annals-of-actuarial-science) [**2.00**]
@@ -45,7 +49,11 @@
   - ***SAJ*** [(Scandinavian Actuarial Journal)](https://www.tandfonline.com/toc/sact20/current) [**1.782**]
   - ***EAJ*** [(European Actuarial Journal)](https://link.springer.com/journal/13385) **[1.2]**
   - ***NAAJ*** [(North American Actuarial Journal)](https://www.tandfonline.com/toc/uaaj20/current) [**0.59**]
-
 - **Conference**
   - ***ARIA*** [(American Risk & Insurance Association)](https://www.aria.org/)
   - ***APRIA*** ([Asia-Pacific Risk and Insurance Association](https://www.apria.org/))
+- **Report**
+
+  - ***EIOPA*** ([European Insurance and Occupational Pensions Authority](https://www.eiopa.europa.eu/index_en))
+  - ***LLOYD'S*** ([Lloyd's of London](https://www.lloyds.com/news-and-insights/risk-reports))
+
