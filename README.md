@@ -19,7 +19,7 @@
   - *This paper designed the **6 scenarios based on the most significant cyberattacks threats** (Supervisory control, Cloud service failure, Health sector and hospitals, Municipal services, Telecommunication, Cross-sector attack) and estimated the economic affects using **Inoperability Input-Output Model**.*
 - **Cyber Risk Scenarios, the Financial System, and Systemic Risk Assessment (*CEIP 2019*)** 
   - [Paper PDF](./Paper/Kaffenberger_et_al_2019.pdf) | [Paper Review](./Review/Kaffenberger_et_al_2019.md) 
-  - *This paper proposed a **scenario analysis method based on the magnitude of cyber risk** (High-Impact Operational Risk Scenarios, Upstream Infrastructure Scenarios, and External Shock Scenarios) and a framework for risk assessment (Cyber Risk Exposure $-$ Cybersecurity Preparedness $-$ Shock Resilience $=$ **Systemic Cyber Risk Score**)* 
+  - *This paper proposed a **scenario analysis method based on the magnitude of cyber risk** (High-Impact Operational Risk Scenarios, Upstream Infrastructure Scenarios, and External Shock Scenarios) and a framework for risk assessment (Cyber Risk Exposure - Cybersecurity Preparedness - Shock Resilience = **Systemic Cyber Risk Score**)* 
 - **Building resilience in Cybersecurity: An artificial lab approach (*JRI 2023*)**
   - [Paper PDF](./Paper/Awiszus_et_al_JRI_2023.pdf) | [Presentation PDF](./Presentation/Seminar_20240125.pdf) | [Paper Review](./Review/Awiszus_et_al_JRI_2023.md) 
   - *This paper reproduced cyber risks with network topology (digital twin) and simulations.*
