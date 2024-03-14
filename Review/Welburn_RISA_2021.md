@@ -48,3 +48,5 @@ Systemic Cyber risk의 정의는 다음과 같음 (World Economic Forum, 2016)
 - systemic cyber risk can be a source of systemic financial risk where a cyber event on systemically important firms could lead to substantial spillover effects, or outward propagations (Office of Financial Research, 2017)
 - OECD는 시스템적 사이버 사건들을 country level, 혹은 global level 수준으로 충격을 줄 수 있는 요인으로 인식하기 시작하였음. (Sommer & Brown, 2011)
 
+#### 2.2 Approaches for Modeling the Economic Impact of Cyber Risk
+
