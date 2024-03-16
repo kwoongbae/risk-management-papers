@@ -77,7 +77,7 @@ Systemic Cyber risk는 아래 세 가지 요인에 의해 발생한다.
 
 ### 3. Scenarios
 
-#### Scale and Timing
+### 3.1 Scale and Timing
 
 - 시나리오 작성시, 사건의 규모의 타이밍은 매우 중요한 요소.
 
@@ -98,57 +98,43 @@ Systemic Cyber risk는 아래 세 가지 요인에 의해 발생한다.
 - 왜냐하면 시나리오 만드는 과정에서 리스크의 잠재적 요인 확인하는 과정을 요구하기 때문.
 - 리스크 발생시에 대한 여러 가지 상황에 대해 시뮬레이션을 돌리기 때문에 잠재적 리스크에 대한 이해를 도울 수 있음.
 
-#### Systemization of Cyber Risk Scenarios
+### 3.2 Systemization of Cyber Risk Scenarios
 
 시나리오 작성 전, 철저한 리스크 평가가 필요함.
 
 - 리스크가 어떻게 도래했는지를 확인해야 함 : within the current realm of operational risk, from the organization's upstream infrastructure, or from an external shock?
+
 - <img src="./imgs/image-20240103103045289.png" alt="image-20240103103045289" style="zoom: 70%;" />
+
 - 위의 내용을 바탕으로 아래와 같이 세 개의 시나리오를 작성
   - High-Impact Operational risk Scenarios
   - Upstream Infrastructure Scenarios
   - External Shock and Other Scenarios
+  
+- **1) High-Impact Operational Risk** 
 
-#### High-Impact Operational Risk Scenarios
+  - Operational risk: 내부의 부적절한 공정, 사람, 시스템이나 내부 IT에 영향을 주는 외부의 영향으로 인해 발생한 손실 위험을 의미한다.
 
-- Operational risk란, 내부의 부적절한 공정, 사람, 시스템이나 내부 IT에 영향을 주는 외부의 영향으로 인해 발생한 손실 위험을 의미한다.
+  - | Scenario                                                     | Description                                                  | Example                 |
+    | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------- |
+    | 금융 기관에서의 malware, Ransomware 발생                     | 대형 은행 같은 경우, 랜섬웨어의 피해자가 되어 은행의 컴퓨터 대부분을 사용할 수 없게 되면 운영 중단/고객 서비스 중단이 발생함 | Shamoon virus, WannaCry |
+    | 거액 송금 사기                                               | 금융기관은 사이버 공격으로인한 사기송금으로 금전적 손실을 겪음. 내부자의 도움을 받은 범죄자가 악성코드설치로 자금을 훔쳐 거액의 이체를 조율하게 됨. |                         |
+    | 데이터 유출 및 표적 정보 유출                                | 평가기관, 금융기관 등에서 민감한 데이터, 이메일, 서류들을 유출시켜서 신뢰성을 떨어뜨림. |                         |
+    | 거래 시스템에 멀웨어 설치                                    | 거래시스템에 침입하여 비정상적으로 많은 거래량을 유도. 이를 통해 시장을 방해하여 주요 거래 플랫폼이 손상되었다는 의심을 키움. |                         |
+    | 금융 거래를 위한 글로벌 messaging 네트워크에 대한 대규모 사이버공격 | 메시지를 통한 네트워킹을 방해.                               |                         |
+    | 시스템적으로 중요한 기관에 동시다발적인 사이버공격           | 핵심 인프라에 수많은 공격들을 동시에 진행. 여러 사건이 연결되어 있다는 증거는 없지만 시기적으로 보았을 때 절대 우연이 아님. |                         |
 
-**가상 시나리오 - 1 : Locking Malware or Ransomware Attack on a financial institution**
+- **2) Upstream Infrastructure Scenarios**
 
-- 규모가 큰 은행은 컴퓨터의 대부분이 먹통이 되는 랜섬웨어 공격의 희생자가 되는데, 이로 인해 일반적인 업무 방해 및 고객 서비스 방해가 발생한다.
-  - Shamoon virus의 랜섬웨어 사례 : Saudi Aramco 은행의 컴퓨터 3만 5천대를 감염시켜 85%의 컴퓨터가 10일동안 업무를 못했다.
-  - WannaCry의 랜섬웨어 사례  : 150개 이상의 국가에 20만대 이상의 컴퓨터에 랜섬웨어 공격을 하였다.
+  - |      |      |      |
+    | ---- | ---- | ---- |
+    |      |      |      |
+    |      |      |      |
+    |      |      |      |
+    |      |      |      |
+    |      |      |      |
 
-**가상 시나리오 - 2 : Large Wire Transfer Fraud**
-
-- 금융기관은 사이버 공격으로 인한 사기 이체로 금전적 손실을 겪음.
-- 범죄자들은 멀웨어를 쉽게 설치하는 내부구조를 통해 자금을 훔침.
-- 금융 기관에서 범죄자가 통제하는 계좌로 거액의 이체가 이루어지도록 조율함.
-
-**가상 시나리오 - 3 : Data Breach and Targeted Information Leak**
-
-- 해커들은 평가기관뿐 아니라, 다른 금융기관 및 기관의 이메일, 다른 내부 서류들에 대한 민감한 데이터를 훔침.
-- 의심스러운 이메일, 서류들을 유출.
-- 이로 인해 평가기관에 대한 신뢰성에 의문을 제기함.
-
-**기상 시나리오 - 4 : Placing Malware in Trading Systems**
-
-- 멀웨어는 비정상적으로 많은 거래량을 유도하여 유동적인 가격 흐름 생성
-  - 특정 상품에 대해 여러 개의 고가의 거래를 동시에 생성함.
-- 이로 인해 사이버 공격은 거래의 복잡성과 거래량을 바탕으로 알고리즘에 오작동을 생성하여 시장을 방해하고 시장 내 위법행위에 대한 위험을 증가시킴.
-- 이는 주요 거래 플랫폼이 손상됐다는 의심을 키워 사이버공격으로 인해 거래가 중단될 수 있음.
-
-**가상 시나리오 - 5 : A large-scale cyber attack on a global messaging network for financial transactions**
-
-- global messaging network는 대규모의 지속되는 사이버공격으로 인해 4주 이상 고통받았음.
-  - network를 방해하는 사건들의 본성이 무엇일지를 계속 궁금해함.
-- 익명의 누군가가 메시지를 보내려고 할 때, 수신자가 메시지를 비공개로 하던가, 변조된 메시지를 수신하는 경우가 있었음.
-
-**가상 시나리오 - 6 : Simultaneous Cyber Attacks on systemically Important Institutions**
-
-- 핵심 인프라에 대한 수많은 공격들은 동시에 발생함.
-  - 공격은 시스템적으로 중요한 은행을 공격하면서, 주요 보험사에 대규모의 랜섬웨어 공격을 하면서, 동시에 주요 규제 기관이 공공 데이터 유출로 인해 공격받았다.
-- 이 세 사건이 연결되어 있다는 증거는 없지만, 시기적으로 보았을 때 절대 우연이 아님을 보인다.
+    
 
 #### Upstream Infrastructure Scenarios
 
