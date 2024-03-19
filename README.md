@@ -31,7 +31,7 @@
   - *This paper extracted cyber risk cases from operational risks, estimated the distribution of loss frequency/severity, and analyzed the factors of cyber risks.*
 - **Systemic Cyber Risk and Aggregate Impacts (*RISA 2021*)**
 
-  - [Paper PDF]() | [Paper Review](./Review/Welburn_RISA_2021.md)
+  - [Paper PDF](./Paper/Welburn_RISA_2021.pdf) | [Paper Review](./Review/Welburn_RISA_2021.md)
 
 ---
 

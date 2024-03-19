@@ -86,7 +86,11 @@
 - 위 시나리오들은 누적피해 가능성이 높으며, 여러 부문/국가에 확장 피해를 끼칠 수 있음.
 - 한 시나리오는 광범위한 사이버 위험 공격 스펙트럼을 포괄함.
 - 컴퓨터 및 네트워크와 관련된 사건 분류체계에 따른 시나리오 분류
-  - ![image-20231016221620532](./imgs/image-20231016221620532.png)
+  - <img src="./imgs/image-20231016221620532.png" alt="image-20231016221620532" style="zoom:60%;" />
 - 입력-출력 분석을 위한 시나리오 및 각 입력 파라미터들 요약
-  - ![image-20231016221710266](./imgs/image-20231016221710266.png)
-  - 
+  - <img src="./imgs/image-20231016221710266.png" alt="image-20231016221710266" style="zoom: 60%;" />
+
+### 5. Empirical Results
+
+#### 5.1 Inoperability and Economic Loss Rankings for One Selected Scenario
+
