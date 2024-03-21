@@ -73,34 +73,35 @@
 
 Sector-specific 모델은 cascading failure로 인한 비용/결과를 설명하는데 부적절함. (Brenner et al, 2017)
 
-- A 기업이 생산 네트워크 측면에서 어떤 기업들과 연결되어 있는지에 대한 데이터가 많이 존재하지 않기 때문.
-- 이는 firm-level의 생산 네트워크에 대한 연구가 부족하기 때문임.
-- 이러한 어려움으로 여러가지 challenge들이 있었음.
+- 이러한 부적절성은 traditional structural modeling을 firm-level의 위험을 적용할 때 발생함.
+- 왜냐하면 기업이 생산 네트워크 측면에서 어떤 기업들과 연결되어 있는지에 대한 데이터가 많이 존재하지 않기 때문.
+- 이는 **firm-level의 생산 네트워크에 대한 연구가 부족**하기 때문임.
+- 이러한 어려움으로 여러가지 challenge들을 다룬 논문들 존재. (Carvalho & Tahbaz-Salehi, 2019)
 
-대표적인 사례로 CGE(Computable General Equilibrium) model 사용 예가 있음. 
+위 문제는 다양한 방식으로 해결되었으며 (Carrera, Standardi, Bosello, & Mysiak, 2015; Rose, Oladosu, & Liao, 2007), 대표적인 사례로 **sector level의 Computable General Equilibrium model 사용 예**가 있음. 
 
-- Carrera, Standardi, Bosello, & Mysiak, 2015; Rose, Oladosu, & Liao, 2007
-- 본 연구에서는 기업 내 방해에 의한 경제적 영향력을 추정하려고 하였음.
-- 하지만 firm-level의 생산 네트워크에 대한 데이터가 없어, 어떠한 사건으로 기업이 가격 변화에 맞춰 생산량을 통제하면 경제가 즉각적으로 균형으로 맞춘다는 가정을 하였음.
-- 하지만 이는 틀린 가정임.
+- 이러한 **CGE 방식**은 중단 발생으로 인한 생산 조정시, **경제가 즉각적으로 균형을 맞추어 가격을 조정**한다고 가정함.
+- 하지만 실제 세계에서는 그렇지 않으며, 공급망 관점에서 비용이 많이 발생함.
+- 따라서, 중단발생 후 균형상태에 있다는 가정은 적절치 않으며, 공급망 내 계약을 고려하지 않고 가격 조정을 허용하는 기존 CGE 모델과 다른 접근 방식 필요.
 
-따라서, 본 논문에서는 Input-output 모델링을 사용함.
+따라서, 본 논문에서는 **Input-output 모델링**을 사용함.
 
+- I/O 모델링은 사이버 공격으로 인한 즉각적인 경제적 영향력을 추정함.
 - 사이버 공격과 같은 특이한 shock으로 인한 경제적 영향력을 연구하고자 함.
-- 원래 I/O 모델은 부문 별 변동에 따른 경제적 영향력을 조사하는데 사용되었음 (Leontief, 1966)
 
-전통적인 I/O 모델은 downstream 영향력을 고려하지 않음.
+원래 I/O 모델은 부문 별 변동에 따른 경제적 영향력을 조사하는데 사용되었음 (Leontief, 1966)
+
+- 하지만 전통적인 I/O 모델은 downstream 영향력을 고려하지 않음.
 
 - Upstream impact는 공급망이나 프로세스의 이전 단계에서 발생한 변화로 인해 downstream에 영향을 줌. 반면 Downstream impact는 공급망이나 프로세스의 이후 단계에서 발생한 변화로 인해 upstream에 영향을 줌.
-- CGE분석은 가격의 변화 (어떠한 결정)로부터 발생되는 공급망의 영향력을 분석하였음.
+- 반면 CGE분석은 가격의 변화를 통해 Downstream 공급망 영향을 포착할 수 있음.
 
 기업은 운영유지 및 사이버 공격으로부터 회복하기 위한 다양한 복원력이 존재함.
 
-- 따라서, short run에 대하여 I/O 모델을 사용하고, long run에 대하여 CGE 모델링을 사용함하면 기업의 복원력을 허용할 수 있게 되고, 복원력은 cyber maturity부터 비즈니스 성격에 이르기까지 다양한 요인에 따라 달라질 수 있음.
-- 이때 이러한 요인들이 뭔지 정확하게 모르고, 복원의 방식이 정적이냐 동적이냐에 따라 달라진다는 것을 고려해보면, 개개인의 기업들의 복원력을 추정하는 것은 딱히 중요하지 않을 수 있음.
-- 그럼에도 Rose et al, 2007에서는 경제적 부분 수준에서 바라본 기업들의 평균 복원력을 추정하는 연구를 진행하였으며, 테러 공격으로 인해 정전이 발생했을 때 기업들의 복원력을 조사함.
+- 단기적으로 I/O 분석을 사용하고 장기적으로 CGE 모델링을 사용하면 일반적으로 기업의 복원력을 허용할 수 있게 됨.
+- 복원력은 cyber maturity부터 nature of their business까지 다양한 요인들에 의해 결정이 되지만, 요인들 중 많은 부분이 알려지지 않았기에, 개별 기업의 복원력을 추정하는 것은 쉬운 일이 아님.
+- 하지만 economic level에서 평균 회복탄력성을 추정하는 노력은 할 수 있음. (Rose et al, 2007)
 - 그러므로 본 논문에서는 각각 기업에서의 사이버 사건으로 인한 잠재적 영향력을 추정하기 위한 전통적인 I/O 모델링을 구현하기 위해 structural model을 정의하고자 함.
-
 
 3장에서는 quantitative 모델을 이용하여 사이버 사건으로 인한 잠재적 경제적 결과를 추정하였음.
 
@@ -111,10 +112,10 @@ Sector-specific 모델은 cascading failure로 인한 비용/결과를 설명하
 
 - cyber attack으로 발생한 기업 내 정전으로 인한 aggregate impact를 이해하기 위해, 본 논문에서는 다음과 같이 economy를 모델링하였음: $\varepsilon = \{S, W,  \epsilon\}$
   - $\varepsilon$ : economy, $S$: sector type, $W$ : weighted adjacency matrix, $\epsilon$ : a vector of sector-level shocks
-  - 각각의 sector $S$에서, 
-  - 기업 $f$에서의 생산량은 $y_f$이며, $i$ sector에서의 총 산출물 양은 $Y_i = \Sigma_{f \in i} y_f$로 계산함.
+  - $W$는 여러 기업 $f$로 구성되며, 각각의 기업 $f$는 산출물 $y_f$를 가짐.
+  - sector $i$ 에서의 총 산출물 양은 $Y_i = \Sigma_{f \in i} y_f$로 계산함.
   - 총 합계 산출물 양 $Y$는 모든 기업들의 산출물 양을 합하여 $Y=\Sigma_{f}^{m} y_f$로 계산함.
-- $\varepsilon$를 모델링하기 위해 본 논문에서는 충격 벡터인 $\epsilon$의 근원을 micro하게 분석하고자 함 (foundations of microorigins).
+- 경제 $\varepsilon$를 모델링하기 위해 본 논문에서는 충격 벡터인 $\epsilon$의 근원을 micro하게 분석하고자 함 (foundations of microorigins).
 - 이러한 접근법은 **Assumption 1**을 기반으로 진행됨
   - ***Assumption 1***: 각 sector의 유입/유출량이 그 sector 내 기업들을 대표하며, 모든 기업들의 생산과정은 동일하다고 가정한다: $u_{fj}=\omega_{fi}w_{ij}$
   - $w_{ij}$: sector $i$에서 생산된 물품들이 sector $j$로 유입되는 양
@@ -137,6 +138,9 @@ Sector-specific 모델은 cascading failure로 인한 비용/결과를 설명하
 
 - 우선 traditional I/O 모델에 대해서 설명이 필요.
 - 전통적인 I/O 모델은 내적을 통해 경제 내 backward linkages 또는 upstream supply chain linkages를 추정함: $\mathbf{x}=\mathbf{W}\mathbf{x}+d$
+  - Backward linkages: the interconnection of an industry to other industries from which it purchases its input in order to produce its output.
+  - Upstream supply chain linkages: flow of inventory in the pre-production stage, mostly in relation to the organization's suppliers.
+  - Downstream supply chain: acti
   - $\mathbf{W}$ : sector 내에서 weighted adjacency matrix
   - $\mathbf{x}$ : sector level output vector
   - $d$ : sector level demand vector
