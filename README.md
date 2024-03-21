@@ -32,7 +32,7 @@
 - **Systemic Cyber Risk and Aggregate Impacts (*RISA 2021*)**
 
   - [Paper PDF](./Paper/Welburn_RISA_2021.pdf) | [Paper Review](./Review/Welburn_RISA_2021.md) | [Presentation PDF](./Presentation/Seminar_20240321.pdf)
-  - The paper used **Quantitative modeling** (Input-Output modeling and Computational General Equilibrium models) to calculate **direct costs** and **indirect costs** (upstream impacts and downstream impacts) caused by Systemic Cyber Risk.
+  - *The paper used **Quantitative modeling** (Input-Output modeling and Computational General Equilibrium models) to calculate **direct costs** and **indirect costs** (upstream impacts and downstream impacts) caused by Systemic Cyber Risk.*
 
 ---
 
