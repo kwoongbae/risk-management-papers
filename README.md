@@ -12,15 +12,15 @@
 
 - **A Neural Network Extension of the Lee-Carter Model to Multiple Populations (*AAS 2021*)**
   
-  - [Richman, R. (2021).](./Paper/Richman_AAS_2021.pdf) [Paper Review](./Review/Richman_AAS_2021.md)
+  - [<u>Richman, R. (2021).</u>](./Paper/Richman_AAS_2021.pdf) [<u>Paper Review</u>](./Review/Richman_AAS_2021.md)
   - > *This paper **predicted the morality rates of HMD dataset using Lee-carter model**, Augmented Common Factor (ACF), Common Age Effect (CAE),  and **Deep Neural Network** (fully-connected).*
 - **The Drivers of Cyber risk (*JFS 2022*)** 
   
-  - [Aldasoro, I. (2022).](./Paper/Aldasoro_JFS_2022.pdf) [Paper Review](./Review/Aldasoro_et_al_JRS_2022.md)
+  - [<u>Aldasoro, I. (2022).</u>](./Paper/Aldasoro_JFS_2022.pdf) [<u>Paper Review</u>](./Review/Aldasoro_et_al_JRS_2022.md)
   - > *This paper explained the relationship between cyber risk loss and independent variables such as sector, risk type, company size, and maliciousness based on **Advisen dataset.***
 - **The Economic Impact of Extreme Cyber Risk Scenarios (*NAAJ 2022*)** 
   
-  - [Eling, M. (2023).](./Paper/Eling_NAAJ_2022.pdf) [Paper Review](./Review/Eling_NAAJ_2022.md)
+  - [<u>Eling, M. (2023).</u>](./Paper/Eling_NAAJ_2022.pdf) [<u>Paper Review</u>](./Review/Eling_NAAJ_2022.md)
   - > *This paper designed the **6 scenarios based on the most significant cyberattacks threats** (Supervisory control, Cloud service failure, Health sector and hospitals, Municipal services, Telecommunication, Cross-sector attack) and estimated the economic affects using **Inoperability Input-Output Model**.*
 - **Cyber Risk Scenarios, the Financial System, and Systemic Risk Assessment (*CEIP 2019*)** 
   
