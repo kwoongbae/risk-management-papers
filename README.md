@@ -5,9 +5,10 @@
 - 통계학 기반의 보험 및 리스크관리 기법들을 다룬 논문들을 공부하며, 사이버리스크와 자연재해 리스크를 중점적으로 다룹니다. 
 
 ---
+### Quick-Summary
+- [https://github.com/kwoongbae/risk-management-papers/issues](https://github.com/kwoongbae/risk-management-papers/issues)
 
-### Paper reviews
-
+### Deep-Dive
 
 - **A Neural Network Extension of the Lee-Carter Model to Multiple Populations (*AAS 2021*)**
   
