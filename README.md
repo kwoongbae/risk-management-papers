@@ -1,14 +1,15 @@
-### Overview
+### 01. Overview
 
 
 - 이 레포는 **리스크관리**와 관련된 다양한 자료, 논문들을 정리하여 요약 및 리뷰를 하는 모음입니다.
 - 통계학 기반의 보험 및 리스크관리 기법들을 다룬 논문들을 공부하며, 사이버리스크와 자연재해 리스크를 중점적으로 다룹니다. 
 
 ---
-### Quick-Summary
+### 02. Quick-Summary
 - [https://github.com/kwoongbae/risk-management-papers/issues](https://github.com/kwoongbae/risk-management-papers/issues)
 
-### Deep-Dive
+---
+### 03. Deep-Dive
 
 - **A Neural Network Extension of the Lee-Carter Model to Multiple Populations (*AAS 2021*)**
   
@@ -41,7 +42,7 @@
 
 ---
 
-### Academic Publications
+### 04. Academic Publications
 
 
 - **Journal** + **Impact factor**
