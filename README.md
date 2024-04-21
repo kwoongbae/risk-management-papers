@@ -12,6 +12,7 @@
 ### 03. Deep-Dive
 
 - **A Neural Network Extension of the Lee-Carter Model to Multiple Populations (*AAS 2021*)** [pdf](./Paper/Richman_AAS_2021.pdf) / [review](./Review/Richman_AAS_2021.md)
+  
   - *This paper **predicted the morality rates of HMD dataset using Lee-carter model**, Augmented Common Factor (ACF), Common Age Effect (CAE),  and **Deep Neural Network** (fully-connected).*
   - mortality rates
 - **The Drivers of Cyber risk (*JFS 2022*)** [pdf](./Paper/Aldasoro_JFS_2022.pdf) / [review](./Review/Aldasoro_et_al_JRS_2022.md)
