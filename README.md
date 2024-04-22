@@ -12,7 +12,6 @@
 ### 03. Deep-Dive
 
 - **A Neural Network Extension of the Lee-Carter Model to Multiple Populations (*AAS 2021*)** [pdf](./Paper/Richman_AAS_2021.pdf) / [review](./Review/Richman_AAS_2021.md)
-  
   - *This paper **predicted the morality rates of HMD dataset using Lee-carter model**, Augmented Common Factor (ACF), Common Age Effect (CAE),  and **Deep Neural Network** (fully-connected).*
   - mortality rates
 - **The Drivers of Cyber risk (*JFS 2022*)** [pdf](./Paper/Aldasoro_JFS_2022.pdf) / [review](./Review/Aldasoro_et_al_JRS_2022.md)
@@ -59,3 +58,10 @@
   - ***EIOPA*** ([European Insurance and Occupational Pensions Authority](https://www.eiopa.europa.eu/index_en))
   - ***LLOYD'S*** ([Lloyd's of London](https://www.lloyds.com/news-and-insights/risk-reports))
 
+---
+
+### 05. Terminologies
+
+- **공제액**
+  - 자기 부담금. 보험사고가 발생하게 되면 피보험자(보험계약자, policyholder)는 전체 금액에서 공제액을 차감한 만큼의 보험금을 지급받게 됨.
+- 
