@@ -24,13 +24,13 @@
 - **Cyber Risk Scenarios, the Financial System, and Systemic Risk Assessment (*CEIP 2019*)** [pdf](./Paper/Kaffenberger_et_al_2019.pdf) / [review](./Review/Kaffenberger_et_al_2019.md) 
   - *This report proposed a **scenario analysis method based on the magnitude of cyber risk** (High-Impact Operational Risk Scenarios, Upstream Infrastructure Scenarios, and External Shock Scenarios) and a **framework for risk assessment** (Cyber Risk Exposure - Cybersecurity Preparedness - Shock Resilience = Systemic Cyber Risk Score!! )*
   - cyber risk, scenario
-- **Building resilience in Cybersecurity: An artificial lab approach (*JRI 2023*)** [pdf](./Paper/Awiszus_et_al_JRI_2023.pdf) / [review](./Review/Awiszus_et_al_JRI_2023.md) / [ppt](./Presentation/Seminar_20240125.pdf)
+- **Building resilience in Cybersecurity: An artificial lab approach (*JRI 2023*)** [pdf](./Paper/Awiszus_et_al_JRI_2023.pdf) / [review](./Review/Awiszus_et_al_JRI_2023.md) / [ppt(en)](./Presentation/Seminar_20240125.pdf)
   - *This paper reproduced cyber risks with network topology (digital twin) and simulations.*
   - cyber risk, simulation(graph network)
 - **What are the actual costs of cyber risk events? (*EJOR 2019*)** [pdf](./Paper/Eling_EJOR_2019.pdf) / [code(R)](./Code/Eling_et_al_EJOR_2019.r) 
   - *This paper extracted cyber risk cases from operational risks, estimated the distribution of loss frequency/severity, and analyzed the factors of cyber risks.*
   - cyber risk
-- **Systemic Cyber Risk and Aggregate Impacts (*RISA 2021*)** [pdf](./Paper/Welburn_RISA_2021.pdf) / [review](./Review/Welburn_RISA_2021.md) / [ppt](./Presentation/Seminar_20240321.pdf)
+- **Systemic Cyber Risk and Aggregate Impacts (*RISA 2021*)** [pdf](./Paper/Welburn_RISA_2021.pdf) / [review](./Review/Welburn_RISA_2021.md) / [ppt(en)](./Presentation/Seminar_20240321.pdf)
   - *The paper used **Quantitative modeling** (Input-Output modeling and Computational General Equilibrium models) to calculate **direct costs** and **indirect costs** (upstream impacts and downstream impacts) caused by Systemic Cyber Risk.*
   - systemic cyber risk, input-ouput model
 
