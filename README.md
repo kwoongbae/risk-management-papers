@@ -67,5 +67,10 @@
   - 자기 부담금. 보험사고가 발생하게 되면 피보험자(보험계약자, policyholder)는 전체 금액에서 공제액을 차감한 만큼의 보험금을 지급받게 됨.
 - **백테스트 (backtest)**
   - 해당 모델(전략)을 과거 데이터에 대입 및 테스트(시뮬레이션)하여 성과를 내는지 확인하는 과정을 의미함.
+- **언더라이팅 리스크 (underwriting risk)**
+  - 언더라이팅이란 보험가입을 원하는 피보험자의 리스크를 선택하여 적절한 위험집단으로 분류하는 과정을 의미하며, 언더라이팅 리스크는 이 때 피보험자가 지니고 있는 리스크를 의미함.
+  - 위험을 평가하고, 요율을 결정하는 등의 업무들이 언더라이팅에 포함됨.
 - **CTF**
   - Catastrophe Task Force의 준말. Solvency II의 건강보험과 손해보험에 속한 CAT 모듈에 대해서 SCR 산출 및 aggregation에 대한 내용을 정리한 [보고서](https://register.eiopa.europa.eu/CEIOPS-Archive/Documents/Reports/CEIOPS-DOC-79-10-CAT-TF-Report.pdf)
+- **LOB (Line of Business)**
+  - 기업이 돈을 버는데 핵심적인 기능을 하는 부서
