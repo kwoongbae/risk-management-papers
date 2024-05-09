@@ -18,20 +18,29 @@
 ### 03. Deep-Dive
 
 - **A Neural Network Extension of the Lee-Carter Model to Multiple Populations (*AAS 2021*)** [paper](./Paper/Richman_AAS_2021.pdf) / [review(ko)](./Review/Richman_AAS_2021.md)
-  - *This paper **predicted the morality rates of HMD dataset using Lee-carter model**, Augmented Common Factor (ACF), Common Age Effect (CAE),  and **Deep Neural Network** (fully-connected).*
-  - mortality rates
+
+  > - *This paper **predicted the morality rates of HMD dataset using Lee-carter model**, Augmented Common Factor (ACF), Common Age Effect (CAE),  and **Deep Neural Network** (fully-connected).*
+  > - mortality rates
+
 - **The Drivers of Cyber risk (*JFS 2022*)** [paper](./Paper/Aldasoro_JFS_2022.pdf) / [review(ko)](./Review/Aldasoro_et_al_JRS_2022.md)
-  - *This paper explained the relationship between cyber risk loss and independent variables such as sector, risk type, company size, and maliciousness based on **Advisen dataset.***
-  - cyber risk
+
+  > - *This paper explained the relationship between cyber risk loss and independent variables such as sector, risk type, company size, and maliciousness based on **Advisen dataset.***
+  > - cyber risk
+
 - **Cyber Risk Scenarios, the Financial System, and Systemic Risk Assessment (*CEIP 2019*)** [paper](./Paper/Kaffenberger_et_al_2019.pdf) / [review(ko)](./Review/Kaffenberger_et_al_2019.md) 
-  - *This report proposed a **scenario analysis method based on the magnitude of cyber risk** (High-Impact Operational Risk Scenarios, Upstream Infrastructure Scenarios, and External Shock Scenarios) and a **framework for risk assessment** (Cyber Risk Exposure - Cybersecurity Preparedness - Shock Resilience = Systemic Cyber Risk Score!! )*
-  - cyber risk, scenario
+
+  > - *This report proposed a **scenario analysis method based on the magnitude of cyber risk** (High-Impact Operational Risk Scenarios, Upstream Infrastructure Scenarios, and External Shock Scenarios) and a **framework for risk assessment** (Cyber Risk Exposure - Cybersecurity Preparedness - Shock Resilience = Systemic Cyber Risk Score!! )*
+  > - cyber risk, scenario
+
 - **Building resilience in Cybersecurity: An artificial lab approach (*JRI 2023*)** [paper](./Paper/Awiszus_et_al_JRI_2023.pdf) / [ppt(en)](./Presentation/Seminar_20240125.pdf)
-  - *This paper reproduced cyber risks with network topology (digital twin) and simulations.*
-  - cyber risk, simulation(graph network)
+
+  > - *This paper reproduced cyber risks with network topology (digital twin) and simulations.*
+  > - cyber risk, simulation(graph network)
+
 - **Systemic Cyber Risk and Aggregate Impacts (*RISA 2021*)** [paper](./Paper/Welburn_RISA_2021.pdf) / [ppt(en)](./Presentation/Seminar_20240321.pdf)
-  - *The paper used **Quantitative modeling** (Input-Output modeling and Computational General Equilibrium models) to calculate **direct costs** and **indirect costs** (upstream impacts and downstream impacts) caused by Systemic Cyber Risk.*
-  - systemic cyber risk, input-ouput model
+
+  > - *The paper used **Quantitative modeling** (Input-Output modeling and Computational General Equilibrium models) to calculate **direct costs** and **indirect costs** (upstream impacts and downstream impacts) caused by Systemic Cyber Risk.*
+  > - systemic cyber risk, input-ouput model
 
 ---
 
