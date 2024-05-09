@@ -2,10 +2,13 @@
 
 
 - **리스크관리, 보험, 규제모형** 관련 자료 및 논문을 공부하는 곳
-- 통계학 기반의 방법론들을 사용하며, 이머징리스크 (cyber risk, pandemic risk) 등을 다룸. 
+- 통계학 기반의 방법론들을 사용하며, 이머징리스크 (cyber risk, pandemic risk) 등을 다룸.
 
 ---
-### 02. Quick-Summary
+### 02. Paper Review
+
+#### Quick-Summary
+
 - [https://github.com/kwoongbae/risk-management-papers/issues](https://github.com/kwoongbae/risk-management-papers/issues)
 
 - **규제모형 관련 연구 정리**
@@ -14,8 +17,7 @@
     | ------------------------------------------------------------ | ------------------------------------------------------------ |
     | [Eling and Schnell (2020)](https://www.tandfonline.com/doi/abs/10.1080/10920277.2019.1641416) | 데이터 기반으로 scr 산출하고 규제모형 기반으로 scr 산출하여 사이버리스크의 과소평가됨을 보임. |
 
----
-### 03. Deep-Dive
+#### Deep-Dive
 
 - **A Neural Network Extension of the Lee-Carter Model to Multiple Populations (*AAS 2021*)** [paper](./Paper/Richman_AAS_2021.pdf) / [review(ko)](./Review/Richman_AAS_2021.md)
 
@@ -44,7 +46,7 @@
 
 ---
 
-### 04. Academic Publications
+### 03. Academic Publications
 
 
 - **Journal** + **Impact factor**
@@ -69,7 +71,7 @@
 
 ---
 
-### 05. Terminologies
+### 04. Terminologies
 
 - **공제액 (deductible)**
   - 자기 부담금. 보험사고가 발생하게 되면 피보험자(보험계약자, policyholder)는 전체 금액에서 공제액을 차감한 만큼의 보험금을 지급받게 됨.
