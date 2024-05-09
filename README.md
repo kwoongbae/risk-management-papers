@@ -1,6 +1,4 @@
-### 01. Overview
-
-<img src="./assets/icon.png" alt="icon" style="zoom:50%;" /> 
+### 01. Overview 
 
 
 - **리스크관리, 보험, 규제모형** 관련 자료 및 논문을 공부하는 곳
