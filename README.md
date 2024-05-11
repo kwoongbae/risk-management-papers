@@ -17,7 +17,7 @@
 ---
 ### 02. Paper Review
 
-#### [Quick-Brief-Summaries](https://github.com/kwoongbae/risk-management-papers/issues)
+### [Quick-Brief-Summaries](https://github.com/kwoongbae/risk-management-papers/issues)
 
 - **규제모형 관련 연구 정리**
 
@@ -25,7 +25,7 @@
     | ------------------------------------------------------------ | ------------------------------------------------------------ |
     | [Eling and Schnell (2020)](https://www.tandfonline.com/doi/abs/10.1080/10920277.2019.1641416) | 데이터 기반으로 scr 산출하고 규제모형 기반으로 scr 산출하여 사이버리스크의 과소평가됨을 보임. |
 
-#### Deep-Dive-Summaries
+### Deep-Dive-Summaries
 
 - **The Drivers of Cyber risk (*JFS 2022*)** [link](https://www.sciencedirect.com/science/article/abs/pii/S1572308922000171) / [review(ko)](./review/Aldasoro_JRS_2022.pdf)
 
