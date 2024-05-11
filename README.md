@@ -2,7 +2,18 @@
 
 
 - **리스크관리, 보험, 규제모형** 관련 자료 및 논문을 공부하는 곳
+
 - 통계학 기반의 방법론들을 사용하며, 이머징리스크 (cyber risk, pandemic risk) 등을 다룸.
+
+- **Contents**
+
+  **[01. Overview](#01-overview)**
+
+  **[02. Paper Review](#02-paper-review)**
+
+  **[03. Academic Publications](#03-academic-publications)**
+
+  **[04. Terminologies](#04-terminologies)**
 
 ---
 ### 02. Paper Review
@@ -19,17 +30,17 @@
 
 #### Deep-Dive-Summaries
 
-- **The Drivers of Cyber risk (*JFS 2022*)** [paper](./Paper/Aldasoro_JFS_2022.pdf) / [review(ko)](./review/Aldasoro_JRS_2022.pdf)
+- **The Drivers of Cyber risk (*JFS 2022*)** [link](https://www.sciencedirect.com/science/article/abs/pii/S1572308922000171) / [review(ko)](./review/Aldasoro_JRS_2022.pdf)
 
   > - *This paper explained the relationship between cyber risk loss and independent variables such as sector, risk type, company size, and maliciousness based on **Advisen dataset.***
   > - cyber risk
 
-- **Building resilience in Cybersecurity: An artificial lab approach (*JRI 2023*)** [paper](./Paper/Awiszus_et_al_JRI_2023.pdf) / [ppt(en)](./Presentation/Seminar_20240125.pdf)
+- **Building resilience in Cybersecurity: An artificial lab approach (*JRI 2023*)** [link](https://arxiv.org/abs/2211.04762) / [ppt(en)](./review/Seminar_20240125.pdf)
 
   > - *This paper reproduced cyber risks with network topology (digital twin) and simulations.*
   > - cyber risk, simulation(graph network)
 
-- **Systemic Cyber Risk and Aggregate Impacts (*RISA 2021*)** [paper](./Paper/Welburn_RISA_2021.pdf) / [ppt(en)](./Presentation/Seminar_20240321.pdf)
+- **Systemic Cyber Risk and Aggregate Impacts (*RISA 2021*)** [link](https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.13715) / [ppt(en)](./review/Seminar_20240321.pdf)
 
   > - *The paper used **Quantitative modeling** (Input-Output modeling and Computational General Equilibrium models) to calculate **direct costs** and **indirect costs** (upstream impacts and downstream impacts) caused by Systemic Cyber Risk.*
   > - systemic cyber risk, input-ouput model
