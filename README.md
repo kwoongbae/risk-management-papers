@@ -7,7 +7,7 @@
 ---
 ### 02. Paper Review
 
-#### Quick-Summary
+#### Quick-Brief-Summaries
 
 - [https://github.com/kwoongbae/risk-management-papers/issues](https://github.com/kwoongbae/risk-management-papers/issues)
 
@@ -17,22 +17,12 @@
     | ------------------------------------------------------------ | ------------------------------------------------------------ |
     | [Eling and Schnell (2020)](https://www.tandfonline.com/doi/abs/10.1080/10920277.2019.1641416) | 데이터 기반으로 scr 산출하고 규제모형 기반으로 scr 산출하여 사이버리스크의 과소평가됨을 보임. |
 
-#### Deep-Dive
+#### Deep-Dive-Summaries
 
-- **A Neural Network Extension of the Lee-Carter Model to Multiple Populations (*AAS 2021*)** [paper](./Paper/Richman_AAS_2021.pdf) / [review(ko)](./Review/Richman_AAS_2021.md)
-
-  > - *This paper **predicted the morality rates of HMD dataset using Lee-carter model**, Augmented Common Factor (ACF), Common Age Effect (CAE),  and **Deep Neural Network** (fully-connected).*
-  > - mortality rates
-
-- **The Drivers of Cyber risk (*JFS 2022*)** [paper](./Paper/Aldasoro_JFS_2022.pdf) / [review(ko)](./Review/Aldasoro_et_al_JRS_2022.md)
+- **The Drivers of Cyber risk (*JFS 2022*)** [paper](./Paper/Aldasoro_JFS_2022.pdf) / [review(ko)](./review/Aldasoro_JRS_2022.pdf)
 
   > - *This paper explained the relationship between cyber risk loss and independent variables such as sector, risk type, company size, and maliciousness based on **Advisen dataset.***
   > - cyber risk
-
-- **Cyber Risk Scenarios, the Financial System, and Systemic Risk Assessment (*CEIP 2019*)** [paper](./Paper/Kaffenberger_et_al_2019.pdf) / [review(ko)](./Review/Kaffenberger_et_al_2019.md) 
-
-  > - *This report proposed a **scenario analysis method based on the magnitude of cyber risk** (High-Impact Operational Risk Scenarios, Upstream Infrastructure Scenarios, and External Shock Scenarios) and a **framework for risk assessment** (Cyber Risk Exposure - Cybersecurity Preparedness - Shock Resilience = Systemic Cyber Risk Score!! )*
-  > - cyber risk, scenario
 
 - **Building resilience in Cybersecurity: An artificial lab approach (*JRI 2023*)** [paper](./Paper/Awiszus_et_al_JRI_2023.pdf) / [ppt(en)](./Presentation/Seminar_20240125.pdf)
 
@@ -49,7 +39,7 @@
 ### 03. Academic Publications
 
 
-- **Journal** + **Impact factor**
+- **Journal** **[impact factor]**
   - ***EJOR*** [(European Journal of Operational Research)](https://www.sciencedirect.com/journal/european-journal-of-operational-research) **[6.4]**
   - ***RISA*** [(RISk Analysis)](https://onlinelibrary.wiley.com/journal/15396924) **[4.302]**
   - ***JRU*** [(Journal of Risk and Uncertainty)](https://www.springer.com/journal/11166) [**3.977**]
