@@ -18,9 +18,7 @@
 ---
 ### 02. Paper Review
 
-#### Quick-Brief-Summaries
-
-- [https://github.com/kwoongbae/risk-management-papers/issues](https://github.com/kwoongbae/risk-management-papers/issues)
+#### [Quick-Brief-Summaries](https://github.com/kwoongbae/risk-management-papers/issues)
 
 - **규제모형 관련 연구 정리**
 
