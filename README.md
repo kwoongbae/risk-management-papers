@@ -1,18 +1,17 @@
+- **[01. Overview](#01-overview) : 본 레포지토리 소개**
+
+- **[02. Paper Review](#02-paper-review) : 주요 논문들 정리 및 리뷰**
+
+- **[03. Academic Publications](#03-academic-publications) : 리스크관리/보험 분야 내 Top-Journal / Conferences list**
+
+- **[04. Terminologies](#04-terminologies) : 리스크관리/금융,보험 분야에서 나오는 주요 용어들 정리**
+
 ### 01. Overview 
 
 
 - **리스크관리, 보험, 규제모형** 관련 자료 및 논문을 공부하는 곳
 
 - 통계학 기반의 방법론들을 사용하며, 이머징리스크 (cyber risk, pandemic risk) 등을 다룸.
-- **Contents**
-
-  **[01. Overview](#01-overview) : 본 레포지토리 소개**
-
-  **[02. Paper Review](#02-paper-review) : 주요 논문들 정리 및 리뷰**
-
-  **[03. Academic Publications](#03-academic-publications) : 리스크관리/보험 분야 내 Top-Journal / Conferences list**
-
-  **[04. Terminologies](#04-terminologies) : 리스크관리/금융,보험 분야에서 나오는 주요 용어들 정리**
 
 ---
 ### 02. Paper Review
