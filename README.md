@@ -6,18 +6,18 @@
 - 통계학 기반의 방법론들을 사용하며, 이머징리스크 (cyber risk, pandemic risk) 등을 다룸.
 - **Contents**
 
-  **[01. Overview](#01-overview)**
+  **[01. Overview](#01-overview) : 본 레포지토리 소개**
 
-  **[02. Paper Review](#02-paper-review)**
+  **[02. Paper Review](#02-paper-review) : 주요 논문들 정리 및 리뷰**
 
-  **[03. Academic Publications](#03-academic-publications)**
+  **[03. Academic Publications](#03-academic-publications) : 리스크관리/보험 분야 내 Top-Journal / Conferences list**
 
-  **[04. Terminologies](#04-terminologies)**
+  **[04. Terminologies](#04-terminologies) : 리스크관리/금융,보험 분야에서 나오는 주요 용어들 정리**
 
 ---
 ### 02. Paper Review
 
-### [Quick-Brief-Summaries](https://github.com/kwoongbae/risk-management-papers/issues)
+### *[Quick-Brief-Summaries](https://github.com/kwoongbae/risk-management-papers/issues)*
 
 - **규제모형 관련 연구 정리**
 
@@ -25,7 +25,7 @@
     | ------------------------------------------------------------ | ------------------------------------------------------------ |
     | [Eling and Schnell (2020)](https://www.tandfonline.com/doi/abs/10.1080/10920277.2019.1641416) | 데이터 기반으로 scr 산출하고 규제모형 기반으로 scr 산출하여 사이버리스크의 과소평가됨을 보임. |
 
-### Deep-Dive-Summaries
+### *[Deep-Dive-Summaries](#deep-dive-summaries)*
 
 - **The Drivers of Cyber risk (*JFS 2022*)** [link](https://www.sciencedirect.com/science/article/abs/pii/S1572308922000171) / [review(ko)](./review/Aldasoro_JRS_2022.pdf)
 
