@@ -37,7 +37,7 @@
   > - *The paper used **Quantitative modeling** (Input-Output modeling and Computational General Equilibrium models) to calculate **direct costs** and **indirect costs** (upstream impacts and downstream impacts) caused by Systemic Cyber Risk.*
   > - systemic cyber risk, input-ouput model
   
-- **Systemic Cyber Risk and Aggregate Impacts (*RISA 2021*)** [link](https://link.springer.com/article/10.1057/grir.2016.1) / [ppt(en)](./review/Seminar_20240524.pdf)
+- **Systemic Cyber Risk and Aggregate Impacts (*Geneva 2016*)** [link](https://link.springer.com/article/10.1057/grir.2016.1) / [ppt(en)](./review/Seminar_20240524.pdf)
 
   > - This paper (i) compared between bank and insurance, (ii) found the systemic relevance of insurance through historically and theoretically, (iii) larger firms, more to aggregate volatility, (iv) and insurance's stability.
   > - systemic risk, insurance sector, regression
