@@ -5,9 +5,9 @@
 ### 01. Overview 
 
 
-- **리스크관리, 보험, 규제모형** 관련 자료 및 논문을 공부하는 곳
+- **리스크관리, 보험, 규제모형** 관련 자료 및 논문을 공부함.
 
-- 통계학 기반의 방법론들을 사용하며, 이머징리스크 (cyber risk, pandemic risk) 등을 다룸.
+- 통계학 기반의 방법론들을 사용하며, 사이버 리스크 중심의 이머징리스크를 다룸.
 
 ---
 ### 02. Paper Review
@@ -16,31 +16,25 @@
 
 - **규제모형 관련 문헌**
 
-  - | Reference                                                    | Summary                                                      | Detail                                                       |
-    | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-    | [Eling and Schnell (2020)](https://www.tandfonline.com/doi/abs/10.1080/10920277.2019.1641416) | 데이터 기반으로 scr 산출하고 규제모형 기반으로 scr 산출하여 사이버리스크의 과소평가됨을 보임. | [link](https://github.com/kwoongbae/risk-management-papers/issues/32) |
+  - | Reference                                                    | Journal    | Summary                                                      |
+    | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
+    | [Eling and Schnell (2020)](https://www.tandfonline.com/doi/abs/10.1080/10920277.2019.1641416) | ***NAAJ*** | [link](https://github.com/kwoongbae/risk-management-papers/issues/32) |
+    | [Alm (2015)](https://www.tandfonline.com/doi/abs/10.1080/03461238.2013.787367) | ***SAJ***  | [link](https://github.com/kwoongbae/risk-management-papers/issues/36) |
 
 ### *[Deep-Dive-Summaries](#deep-dive-summaries)*
 
 - **The Drivers of Cyber risk (*JFS 2022*)** [link](https://www.sciencedirect.com/science/article/abs/pii/S1572308922000171) / [review(ko)](./review/Aldasoro_JRS_2022.pdf)
 
-  > - *This paper explained the relationship between cyber risk loss and independent variables such as sector, risk type, company size, and maliciousness based on **Advisen dataset.***
-  > - cyber risk
-
+  - cyber risk
 - **Building resilience in Cybersecurity: An artificial lab approach (*JRI 2023*)** [link](https://arxiv.org/abs/2211.04762) / [ppt(en)](./review/Seminar_20240125.pdf)
-
-  > - *This paper reproduced cyber risks with network topology (digital twin) and simulations.*
-  > - cyber risk, simulation (graph network)
-
+  - cyber risk, simulation (graph network)
 - **Systemic Cyber Risk and Aggregate Impacts (*RISA 2021*)** [link](https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.13715) / [ppt(en)](./review/Seminar_20240321.pdf)
 
-  > - *The paper used **Quantitative modeling** (Input-Output modeling and Computational General Equilibrium models) to calculate **direct costs** and **indirect costs** (upstream impacts and downstream impacts) caused by Systemic Cyber Risk.*
-  > - systemic cyber risk, input-ouput model
-  
+  - systemic cyber risk, input-ouput model
 - **Analysis of Systemic Risk in the Insurance Industry (*Geneva 2016*)** [link](https://link.springer.com/article/10.1057/grir.2016.1) / [ppt(en)](./review/Seminar_20240524.pdf)
-
-  > - This paper (i) compared between bank and insurance, (ii) found the systemic relevance of insurance through historically and theoretically, (iii) larger firms, more to aggregate volatility, (iv) and insurance's stability.
-  > - systemic risk, insurance sector, regression
+  - systemic risk, insurance sector, regression
+- **A simulation model for calculating solvency capital requirements for non-life insurance risk (*SAJ 2014*)** [link](https://www.tandfonline.com/doi/abs/10.1080/03461238.2013.787367) / [ppt(en)](./review/Seminar_20240626.pdf)
+  - simulation
 
 ---
 
@@ -66,3 +60,4 @@
 
   - ***EIOPA*** ([European Insurance and Occupational Pensions Authority](https://www.eiopa.europa.eu/index_en))
   - ***LLOYD'S*** ([Lloyd's of London](https://www.lloyds.com/news-and-insights/risk-reports))
+
