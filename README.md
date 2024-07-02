@@ -18,22 +18,18 @@
 
   - | Reference                                                    | Journal    | Summary                                                      |
     | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
-    | [Eling and Schnell (2020)](https://www.tandfonline.com/doi/abs/10.1080/10920277.2019.1641416) | ***NAAJ*** | [link](https://github.com/kwoongbae/risk-management-papers/issues/32) |
-    | [Alm (2015)](https://www.tandfonline.com/doi/abs/10.1080/03461238.2013.787367) | ***SAJ***  | [link](https://github.com/kwoongbae/risk-management-papers/issues/36) |
+    | [Eling and Schnell (2020)](https://www.tandfonline.com/doi/abs/10.1080/10920277.2019.1641416) | ***NAAJ*** | [review](https://github.com/kwoongbae/risk-management-papers/issues/32) |
+    | [Alm (2015)](https://www.tandfonline.com/doi/abs/10.1080/03461238.2013.787367) | ***SAJ***  | [review](https://github.com/kwoongbae/risk-management-papers/issues/36) |
 
 ### *[Deep-Dive-Summaries](#deep-dive-summaries)*
 
-- **The Drivers of Cyber risk (*JFS 2022*)** [link](https://www.sciencedirect.com/science/article/abs/pii/S1572308922000171) / [review(ko)](./review/Aldasoro_JRS_2022.pdf)
-
-  - cyber risk
-- **Building resilience in Cybersecurity: An artificial lab approach (*JRI 2023*)** [link](https://arxiv.org/abs/2211.04762) / [ppt(en)](./review/Seminar_20240125.pdf)
+- **Building resilience in Cybersecurity: An artificial lab approach (*JRI 2023*)** [link](https://arxiv.org/abs/2211.04762) / [review (en)](./review/Seminar_20240125.pdf)
   - cyber risk, simulation (graph network)
-- **Systemic Cyber Risk and Aggregate Impacts (*RISA 2021*)** [link](https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.13715) / [ppt(en)](./review/Seminar_20240321.pdf)
-
-  - systemic cyber risk, input-ouput model
-- **Analysis of Systemic Risk in the Insurance Industry (*Geneva 2016*)** [link](https://link.springer.com/article/10.1057/grir.2016.1) / [ppt(en)](./review/Seminar_20240524.pdf)
+- **Systemic Cyber Risk and Aggregate Impacts (*RISA 2021*)** [link](https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.13715) / [review (en)](./review/Seminar_20240321.pdf)
+- systemic cyber risk, input-ouput model
+- **Analysis of Systemic Risk in the Insurance Industry (*Geneva 2016*)** [link](https://link.springer.com/article/10.1057/grir.2016.1) / [review (en)](./review/Seminar_20240524.pdf)
   - systemic risk, insurance sector, regression
-- **A simulation model for calculating solvency capital requirements for non-life insurance risk (*SAJ 2014*)** [link](https://www.tandfonline.com/doi/abs/10.1080/03461238.2013.787367) / [ppt(en)](./review/Seminar_20240626.pdf)
+- **A simulation model for calculating solvency capital requirements for non-life insurance risk (*SAJ 2014*)** [link](https://www.tandfonline.com/doi/abs/10.1080/03461238.2013.787367) / [review (en)](./review/Seminar_20240626.pdf)
   - simulation
 
 ---
