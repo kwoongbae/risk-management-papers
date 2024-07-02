@@ -1,7 +1,3 @@
-> - **[01. Overview](#01-overview) : 본 레포지토리 소개**
-> - **[02. Paper Review](#02-paper-review) : 주요 논문들 정리 및 리뷰**
-> - **[03. Academic Publications](#03-academic-publications) : 리스크관리/보험 분야 내 Top-Journal / Conferences list**
-
 ### 01. Overview 
 
 
@@ -16,8 +12,8 @@
 
   - | Reference                                                    | Journal    | Summary                                                      |
     | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
-    | [Eling and Schnell (2020)](https://www.tandfonline.com/doi/abs/10.1080/10920277.2019.1641416) | ***NAAJ*** | [review (ko)](https://github.com/kwoongbae/risk-management-papers/issues/32) |
     | [Alm (2015)](https://www.tandfonline.com/doi/abs/10.1080/03461238.2013.787367) | ***SAJ***  | [review (ko)](https://github.com/kwoongbae/risk-management-papers/issues/36) [review (en)](./review/Seminar_20240626.pdf) |
+    | [Eling and Schnell (2020)](https://www.tandfonline.com/doi/abs/10.1080/10920277.2019.1641416) | ***NAAJ*** | [review ()](https://github.com/kwoongbae/risk-management-papers/issues/32) |
   
 - **(시스템적) 사이버 리스크 관련 문헌**
 
@@ -25,8 +21,8 @@
     | ------------------------------------------------------------ | ------------------- | --------------------------------------------- |
     | [Aldasoro et al. (2022)](https://www.sciencedirect.com/science/article/abs/pii/S1572308922000171) | ***JFS***           | [review (ko)](./review/Aldasoro_JRS_2022.pdf) |
     | [Awiszus et al. (2023)](https://arxiv.org/abs/2211.04762)    | ***JRI***           | [review (en)](./review/Seminar_20240125.pdf)  |
-    | [Welburn and Strong (2021)](https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.13715) | ***Risk Analysis*** | [review (en)](./review/Seminar_20240321.pdf)  |
     | [Bobtcheff et al. (2016)](https://link.springer.com/article/10.1057/grir.2016.1) | ***Geneva Paper***  | [review (en)](./review/Seminar_20240524.pdf)  |
+    | [Welburn and Strong (2021)](https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.13715) | ***Risk Analysis*** | [review (en)](./review/Seminar_20240321.pdf)  |
 
 ---
 
