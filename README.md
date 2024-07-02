@@ -13,7 +13,7 @@
   - | Reference                                                    | Journal    | Summary                                                      |
     | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
     | [Alm (2015)](https://www.tandfonline.com/doi/abs/10.1080/03461238.2013.787367) | ***SAJ***  | [review (ko)](https://github.com/kwoongbae/risk-management-papers/issues/36) [review (en)](./review/Seminar_20240626.pdf) |
-    | [Eling and Schnell (2020)](https://www.tandfonline.com/doi/abs/10.1080/10920277.2019.1641416) | ***NAAJ*** | [review ()](https://github.com/kwoongbae/risk-management-papers/issues/32) |
+    | [Eling and Schnell (2020)](https://www.tandfonline.com/doi/abs/10.1080/10920277.2019.1641416) | ***NAAJ*** | [review (ko)](https://github.com/kwoongbae/risk-management-papers/issues/32) |
   
 - **(시스템적) 사이버 리스크 관련 문헌**
 
