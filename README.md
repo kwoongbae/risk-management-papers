@@ -12,25 +12,21 @@
 ---
 ### 02. Paper Review
 
-### *[Quick-Brief-Summaries](https://github.com/kwoongbae/risk-management-papers/issues)*
-
-- **규제모형 관련 문헌**
+- **보험사 규제모형 관련 문헌**
 
   - | Reference                                                    | Journal    | Summary                                                      |
     | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
-    | [Eling and Schnell (2020)](https://www.tandfonline.com/doi/abs/10.1080/10920277.2019.1641416) | ***NAAJ*** | [review](https://github.com/kwoongbae/risk-management-papers/issues/32) |
-    | [Alm (2015)](https://www.tandfonline.com/doi/abs/10.1080/03461238.2013.787367) | ***SAJ***  | [review](https://github.com/kwoongbae/risk-management-papers/issues/36) |
+    | [Eling and Schnell (2020)](https://www.tandfonline.com/doi/abs/10.1080/10920277.2019.1641416) | ***NAAJ*** | [review (ko)](https://github.com/kwoongbae/risk-management-papers/issues/32) |
+    | [Alm (2015)](https://www.tandfonline.com/doi/abs/10.1080/03461238.2013.787367) | ***SAJ***  | [review (ko)](https://github.com/kwoongbae/risk-management-papers/issues/36) [review (en)](./review/Seminar_20240626.pdf) |
+  
+- **(시스템적) 사이버 리스크 관련 문헌**
 
-### *[Deep-Dive-Summaries](#deep-dive-summaries)*
-
-- **Building resilience in Cybersecurity: An artificial lab approach (*JRI 2023*)** [link](https://arxiv.org/abs/2211.04762) / [review (en)](./review/Seminar_20240125.pdf)
-  - cyber risk, simulation (graph network)
-- **Systemic Cyber Risk and Aggregate Impacts (*RISA 2021*)** [link](https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.13715) / [review (en)](./review/Seminar_20240321.pdf)
-  - systemic cyber risk, input-ouput model
-- **Analysis of Systemic Risk in the Insurance Industry (*Geneva 2016*)** [link](https://link.springer.com/article/10.1057/grir.2016.1) / [review (en)](./review/Seminar_20240524.pdf)
-  - systemic risk, insurance sector, regression
-- **A simulation model for calculating solvency capital requirements for non-life insurance risk (*SAJ 2014*)** [link](https://www.tandfonline.com/doi/abs/10.1080/03461238.2013.787367) / [review (en)](./review/Seminar_20240626.pdf)
-  - simulation
+  - | Reference                                                    | Journal             | Link                                          |
+    | ------------------------------------------------------------ | ------------------- | --------------------------------------------- |
+    | [Aldasoro et al. (2022)](https://www.sciencedirect.com/science/article/abs/pii/S1572308922000171) | ***JFS***           | [review (ko)](./review/Aldasoro_JRS_2022.pdf) |
+    | [Awiszus et al. (2023)](https://arxiv.org/abs/2211.04762)    | ***JRI***           | [review (en)](./review/Seminar_20240125.pdf)  |
+    | [Welburn and Strong (2021)](https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.13715) | ***Risk Analysis*** | [review (en)](./review/Seminar_20240321.pdf)  |
+    | [Bobtcheff et al. (2016)](https://link.springer.com/article/10.1057/grir.2016.1) | ***Geneva Paper***  | [review (en)](./review/Seminar_20240524.pdf)  |
 
 ---
 
