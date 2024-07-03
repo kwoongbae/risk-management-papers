@@ -45,13 +45,13 @@
     | ***EAJ***           | [European Actuarial Journal](https://link.springer.com/journal/13385) | 0.8           |
     | ***GPRI***          | [The Geneva Papers on Risk and Insurance – Issues and Practice](https://www.genevaassociation.org/publications/the-geneva-papers) | 0.7           |
 - **Conference**
-  - | Abbreviation | Full name & Link                                             | Official journal                                             |
-    | ------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-    | ***ARIA***   | [American Risk & Insurance Association](https://www.aria.org/) | [JRI](https://onlinelibrary.wiley.com/journal/15396975) [RMIR](https://onlinelibrary.wiley.com/journal/15406296) |
-    | ***APRIA***  | [Asia-Pacific Risk and Insurance Association](https://www.apria.org/) | APJRI                                                        |
-    | ***EGRIE***  | [European Group of Risk & Insurance Economists](http://www.egrie.org/) | [GPRI](https://www.genevaassociation.org/publications/the-geneva-papers) |
+  - | Abbreviation | Full name & Link                                             | Official journal |
+    | ------------ | ------------------------------------------------------------ | ---------------- |
+    | ***ARIA***   | [American Risk & Insurance Association](https://www.aria.org/) | ***JRI RMIR***   |
+    | ***APRIA***  | [Asia-Pacific Risk and Insurance Association](https://www.apria.org/) | ***APJRI***      |
+    | ***EGRIE***  | [European Group of Risk & Insurance Economists](http://www.egrie.org/) | ***GPRI***       |
 - **Report**
 
-  - ***EIOPA*** ([European Insurance and Occupational Pensions Authority](https://www.eiopa.europa.eu/index_en))
+  - ***EIOPA*** ([European Insurance and Occupational Pensions Authority](https://www.eiopa.europa.eu/index_en))s
   - ***LLOYD'S*** ([Lloyd's of London](https://www.lloyds.com/news-and-insights/risk-reports))
 
