@@ -21,7 +21,7 @@
     | ------------------------------------------------------------ | ------------------- | --------------------------------------------- |
     | [Aldasoro et al. (2022)](https://www.sciencedirect.com/science/article/abs/pii/S1572308922000171) | ***JFS***           | [review (ko)](./review/Aldasoro_JRS_2022.pdf) |
     | [Awiszus et al. (2023)](https://arxiv.org/abs/2211.04762)    | ***JRI***           | [review (en)](./review/Seminar_20240125.pdf)  |
-    | [Bobtcheff et al. (2016)](https://link.springer.com/article/10.1057/grir.2016.1) | ***Geneva Paper***  | [review (en)](./review/Seminar_20240524.pdf)  |
+    | [Bobtcheff et al. (2016)](https://link.springer.com/article/10.1057/grir.2016.1) | ***Geneva Papers*** | [review (en)](./review/Seminar_20240524.pdf)  |
     | [Welburn and Strong (2021)](https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.13715) | ***Risk Analysis*** | [review (en)](./review/Seminar_20240321.pdf)  |
 
 ---
@@ -29,21 +29,27 @@
 ### 03. Academic Publications
 
 
-- **Journal** **[impact factor]**
-  - ***EJOR*** [(European Journal of Operational Research)](https://www.sciencedirect.com/journal/european-journal-of-operational-research) **[6.4]**
-  - ***RISA*** [(RISk Analysis)](https://onlinelibrary.wiley.com/journal/15396924) **[4.302]**
-  - ***JRU*** [(Journal of Risk and Uncertainty)](https://www.springer.com/journal/11166) [**3.977**]
-  - ***JFS*** [(Journal of Financial Stability)](https://www.sciencedirect.com/journal/journal-of-financial-stability) [**3.554**]
-  - ***AAS*** [(Annals of Actuarial Science)](https://www.cambridge.org/core/journals/annals-of-actuarial-science) [**2.00**]
-  - ***IME*** [(Insurance: Mathematics and Economics)]() [**1.933**]
-  - ***JRI*** [(Journal of Risk and Insurance)](https://onlinelibrary.wiley.com/journal/15396975) [**1.90**]
-  - ***SAJ*** [(Scandinavian Actuarial Journal)](https://www.tandfonline.com/toc/sact20/current) [**1.782**]
-  - ***GEVENA*** [(The Geneva Papers on Risk and Insurance – Issues and Practice)](https://www.genevaassociation.org/publications/the-geneva-papers) **[1.6]**
-  - ***EAJ*** [(European Actuarial Journal)](https://link.springer.com/journal/13385) **[1.2]**
-  - ***NAAJ*** [(North American Actuarial Journal)](https://www.tandfonline.com/toc/uaaj20/current) [**0.59**]
+- **Journal**
+  
+  - | Journal             | Full name & Link                                             | Impact factor |
+    | ------------------- | ------------------------------------------------------------ | ------------- |
+    | ***EJOR***          | [European Journal of Operational Research](https://www.sciencedirect.com/journal/european-journal-of-operational-research) | 6.0           |
+    | ***Risk Analysis*** | [Risk Analysis](https://onlinelibrary.wiley.com/journal/15396924) | 3.0           |
+    | ***JRI***           | [Journal of Risk and Insurance](https://onlinelibrary.wiley.com/journal/15396975) | 2.1           |
+    | ***IME***           | [Insurance: Mathematics and Economics](https://www.sciencedirect.com/journal/insurance-mathematics-and-economics) | 1.9           |
+    | ***SAJ***           | [Scandinavian Actuarial Journal](https://www.tandfonline.com/toc/sact20/current) | 1.6           |
+    | ***AAS***           | [Annals of Actuarial Science](https://www.cambridge.org/core/journals/annals-of-actuarial-science) | 1.5           |
+    | ***NAAJ***          | [North American Actuarial Journal](https://www.tandfonline.com/toc/uaaj20/current) | 1.4           |
+    | ***JRU***           | [Journal of Risk and Uncertainty](https://www.springer.com/journal/11166) | 1.3           |
+    | ***RMIR***          | [Risk Management and Insurance Review](https://onlinelibrary.wiley.com/journal/15406296) | 1.1           |
+    | ***EAJ***           | [European Actuarial Journal](https://link.springer.com/journal/13385) | 0.8           |
+    | ***Gevena Papers*** | [The Geneva Papers on Risk and Insurance – Issues and Practice](https://www.genevaassociation.org/publications/the-geneva-papers) | 0.7           |
 - **Conference**
-  - ***ARIA*** [(American Risk & Insurance Association)](https://www.aria.org/)
-  - ***APRIA*** ([Asia-Pacific Risk and Insurance Association](https://www.apria.org/))
+  - | Conference  | Full name & Link                                             | Official journal                                             |
+    | ----------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+    | ***ARIA***  | [American Risk & Insurance Association](https://www.aria.org/) | [JRI](https://onlinelibrary.wiley.com/journal/15396975) [RMIR](https://onlinelibrary.wiley.com/journal/15406296) |
+    | ***APRIA*** | [Asia-Pacific Risk and Insurance Association](https://www.apria.org/) | APJRI                                                        |
+    | ***EGRIE*** | [European Group of Risk & Insurance Economists](http://www.egrie.org/) | [Geneva Papers](https://www.genevaassociation.org/publications/the-geneva-papers) |
 - **Report**
 
   - ***EIOPA*** ([European Insurance and Occupational Pensions Authority](https://www.eiopa.europa.eu/index_en))
