@@ -10,10 +10,11 @@
 
 - **보험사 규제모형 관련 문헌**
 
-  - | Reference                                                    | Journal    | Summary                                                      |
-    | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
-    | [Alm (2015)](https://www.tandfonline.com/doi/abs/10.1080/03461238.2013.787367) | ***SAJ***  | [review (ko)](https://github.com/kwoongbae/risk-management-papers/issues/36) [review (en)](./review/Seminar_20240626.pdf) |
-    | [Eling and Schnell (2020)](https://www.tandfonline.com/doi/abs/10.1080/10920277.2019.1641416) | ***NAAJ*** | [review (ko)](https://github.com/kwoongbae/risk-management-papers/issues/32) [code (R)](https://github.com/kwoongbae/risk-management-papers/blob/main/code/Eling_and_Schnell_NAAJ_2020.r) |
+  - | Reference                                                    | Journal              | Summary                                                      |
+    | ------------------------------------------------------------ | -------------------- | ------------------------------------------------------------ |
+    | [Alm (2015)](https://www.tandfonline.com/doi/abs/10.1080/03461238.2013.787367) | ***SAJ***            | [review (ko)](https://github.com/kwoongbae/risk-management-papers/issues/36) [review (en)](./review/Seminar_20240626.pdf) |
+    | [Bermúdez et al. (2013)](https://www.cambridge.org/core/journals/astin-bulletin-journal-of-the-iaa/article/correlation-sensitivity-analysis-of-nonlife-underwriting-risk-in-solvency-capital-requirement-estimation/8C16299AF4E9DFCD13C5C7EA3697705E) | ***ASTIN Bulletin*** | [review (ko)](https://github.com/kwoongbae/risk-management-papers/issues/37) |
+    | [Eling and Schnell (2020)](https://www.tandfonline.com/doi/abs/10.1080/10920277.2019.1641416) | ***NAAJ***           | [review (ko)](https://github.com/kwoongbae/risk-management-papers/issues/32) [code (R)](https://github.com/kwoongbae/risk-management-papers/blob/main/code/Eling_and_Schnell_NAAJ_2020.r) |
   
 - **(시스템적) 사이버 리스크 관련 문헌**
 
@@ -31,19 +32,20 @@
 
 - **Journal**
   
-  - | Abbreviation        | Full name & Link                                             | Impact factor |
-    | ------------------- | ------------------------------------------------------------ | ------------- |
-    | ***EJOR***          | [European Journal of Operational Research](https://www.sciencedirect.com/journal/european-journal-of-operational-research) | 6.0           |
-    | ***Risk Analysis*** | [Risk Analysis](https://onlinelibrary.wiley.com/journal/15396924) | 3.0           |
-    | ***JRI***           | [Journal of Risk and Insurance](https://onlinelibrary.wiley.com/journal/15396975) | 2.1           |
-    | ***IME***           | [Insurance: Mathematics and Economics](https://www.sciencedirect.com/journal/insurance-mathematics-and-economics) | 1.9           |
-    | ***SAJ***           | [Scandinavian Actuarial Journal](https://www.tandfonline.com/toc/sact20/current) | 1.6           |
-    | ***AAS***           | [Annals of Actuarial Science](https://www.cambridge.org/core/journals/annals-of-actuarial-science) | 1.5           |
-    | ***NAAJ***          | [North American Actuarial Journal](https://www.tandfonline.com/toc/uaaj20/current) | 1.4           |
-    | ***JRU***           | [Journal of Risk and Uncertainty](https://www.springer.com/journal/11166) | 1.3           |
-    | ***RMIR***          | [Risk Management and Insurance Review](https://onlinelibrary.wiley.com/journal/15406296) | 1.1           |
-    | ***EAJ***           | [European Actuarial Journal](https://link.springer.com/journal/13385) | 0.8           |
-    | ***GPRI***          | [The Geneva Papers on Risk and Insurance – Issues and Practice](https://www.genevaassociation.org/publications/the-geneva-papers) | 0.7           |
+  - | Abbreviation         | Full name & Link                                             | Impact factor |
+    | -------------------- | ------------------------------------------------------------ | ------------- |
+    | ***EJOR***           | [European Journal of Operational Research](https://www.sciencedirect.com/journal/european-journal-of-operational-research) | 6.0           |
+    | ***Risk Analysis***  | [Risk Analysis](https://onlinelibrary.wiley.com/journal/15396924) | 3.0           |
+    | ***JRI***            | [Journal of Risk and Insurance](https://onlinelibrary.wiley.com/journal/15396975) | 2.1           |
+    | ***IME***            | [Insurance: Mathematics and Economics](https://www.sciencedirect.com/journal/insurance-mathematics-and-economics) | 1.9           |
+    | ***ASTIN Bulletin*** | [Astin Bulletin: The Journal of the International Actuarial Association](https://www.cambridge.org/core/journals/astin-bulletin-journal-of-the-iaa) | 1.7           |
+    | ***SAJ***            | [Scandinavian Actuarial Journal](https://www.tandfonline.com/toc/sact20/current) | 1.6           |
+    | ***AAS***            | [Annals of Actuarial Science](https://www.cambridge.org/core/journals/annals-of-actuarial-science) | 1.5           |
+    | ***NAAJ***           | [North American Actuarial Journal](https://www.tandfonline.com/toc/uaaj20/current) | 1.4           |
+    | ***JRU***            | [Journal of Risk and Uncertainty](https://www.springer.com/journal/11166) | 1.3           |
+    | ***RMIR***           | [Risk Management and Insurance Review](https://onlinelibrary.wiley.com/journal/15406296) | 1.1           |
+    | ***EAJ***            | [European Actuarial Journal](https://link.springer.com/journal/13385) | 0.8           |
+    | ***GPRI***           | [The Geneva Papers on Risk and Insurance – Issues and Practice](https://www.genevaassociation.org/publications/the-geneva-papers) | 0.7           |
 - **Conference**
   - | Abbreviation | Full name & Link                                             | Official journal |
     | ------------ | ------------------------------------------------------------ | ---------------- |
@@ -52,6 +54,6 @@
     | ***EGRIE***  | [European Group of Risk & Insurance Economists](http://www.egrie.org/) | ***GPRI***       |
 - **Report**
 
-  - ***EIOPA*** ([European Insurance and Occupational Pensions Authority](https://www.eiopa.europa.eu/index_en))s
+  - ***EIOPA*** ([European Insurance and Occupational Pensions Authority](https://www.eiopa.europa.eu/index_en))
   - ***LLOYD'S*** ([Lloyd's of London](https://www.lloyds.com/news-and-insights/risk-reports))
 
