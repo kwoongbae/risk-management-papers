@@ -10,20 +10,20 @@
 
 - **보험사 규제모형 관련 문헌**
 
-  - | Reference                                                    | Journal              | Summary                                                      |
-    | ------------------------------------------------------------ | -------------------- | ------------------------------------------------------------ |
-    | [Alm (2015)](https://www.tandfonline.com/doi/abs/10.1080/03461238.2013.787367) | ***SAJ***            | [review (ko)](https://github.com/kwoongbae/risk-management-papers/issues/36) [review (en)](./review/Seminar_20240626.pdf) |
-    | [Bermúdez et al. (2013)](https://www.cambridge.org/core/journals/astin-bulletin-journal-of-the-iaa/article/correlation-sensitivity-analysis-of-nonlife-underwriting-risk-in-solvency-capital-requirement-estimation/8C16299AF4E9DFCD13C5C7EA3697705E) | ***ASTIN Bulletin*** | [review (ko)](https://github.com/kwoongbae/risk-management-papers/issues/37) |
-    | [Eling and Schnell (2020)](https://www.tandfonline.com/doi/abs/10.1080/10920277.2019.1641416) | ***NAAJ***           | [review (ko)](https://github.com/kwoongbae/risk-management-papers/issues/32) [code (R)](https://github.com/kwoongbae/risk-management-papers/blob/main/code/Eling_and_Schnell_NAAJ_2020.r) |
+  - | Reference                                                    | Journal              | Study                                                        |
+    | ------------------------------------------------------------ | -------------------- | :----------------------------------------------------------- |
+    | [Alm (2015)](https://www.tandfonline.com/doi/abs/10.1080/03461238.2013.787367) | ***SAJ***            | [review](https://github.com/kwoongbae/risk-management-papers/issues/36) <br />[seminar file](./review/Seminar_20240626.pdf) |
+    | [Bermúdez et al. (2013)](https://www.cambridge.org/core/journals/astin-bulletin-journal-of-the-iaa/article/correlation-sensitivity-analysis-of-nonlife-underwriting-risk-in-solvency-capital-requirement-estimation/8C16299AF4E9DFCD13C5C7EA3697705E) | ***ASTIN Bulletin*** | [review](https://github.com/kwoongbae/risk-management-papers/issues/37) |
+    | [Eling and Schnell (2020)](https://www.tandfonline.com/doi/abs/10.1080/10920277.2019.1641416) | ***NAAJ***           | [review](https://github.com/kwoongbae/risk-management-papers/issues/32) <br />[code (R)](https://github.com/kwoongbae/risk-management-papers/blob/main/code/Eling_and_Schnell_NAAJ_2020.r) |
   
 - **(시스템적) 사이버 리스크 관련 문헌**
 
-  - | Reference                                                    | Journal             | Link                                          |
-    | ------------------------------------------------------------ | ------------------- | --------------------------------------------- |
-    | [Aldasoro et al. (2022)](https://www.sciencedirect.com/science/article/abs/pii/S1572308922000171) | ***JFS***           | [review (ko)](./review/Aldasoro_JRS_2022.pdf) |
-    | [Awiszus et al. (2023)](https://arxiv.org/abs/2211.04762)    | ***JRI***           | [review (en)](./review/Seminar_20240125.pdf)  |
-    | [Bobtcheff et al. (2016)](https://link.springer.com/article/10.1057/grir.2016.1) | ***GPRI***          | [review (en)](./review/Seminar_20240524.pdf)  |
-    | [Welburn and Strong (2021)](https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.13715) | ***Risk Analysis*** | [review (en)](./review/Seminar_20240321.pdf)  |
+  - | Reference                                                    | Journal             | Study                                          |
+    | ------------------------------------------------------------ | ------------------- | ---------------------------------------------- |
+    | [Aldasoro et al. (2022)](https://www.sciencedirect.com/science/article/abs/pii/S1572308922000171) | ***JFS***           | [seminar file](./review/Aldasoro_JRS_2022.pdf) |
+    | [Awiszus et al. (2023)](https://arxiv.org/abs/2211.04762)    | ***JRI***           | [seminar file](./review/Seminar_20240125.pdf)  |
+    | [Bobtcheff et al. (2016)](https://link.springer.com/article/10.1057/grir.2016.1) | ***GPRI***          | [seminar file](./review/Seminar_20240524.pdf)  |
+    | [Welburn and Strong (2021)](https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.13715) | ***Risk Analysis*** | [seminar file](./review/Seminar_20240321.pdf)  |
 
 ---
 
