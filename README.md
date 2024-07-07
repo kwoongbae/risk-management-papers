@@ -14,7 +14,7 @@
     | ------------------------------------------------------------ | -------------------- | :----------------------------------------------------------- |
     | [Alm (2015)](https://www.tandfonline.com/doi/abs/10.1080/03461238.2013.787367) | ***SAJ***            | [review](https://github.com/kwoongbae/risk-management-papers/issues/36) / [seminar file](./review/Seminar_20240626.pdf) |
     | [Bermúdez et al. (2013)](https://www.cambridge.org/core/journals/astin-bulletin-journal-of-the-iaa/article/correlation-sensitivity-analysis-of-nonlife-underwriting-risk-in-solvency-capital-requirement-estimation/8C16299AF4E9DFCD13C5C7EA3697705E) | ***ASTIN Bulletin*** | [review](https://github.com/kwoongbae/risk-management-papers/issues/37) |
-    | [Eling and Schnell (2020)](https://www.tandfonline.com/doi/abs/10.1080/10920277.2019.1641416) | ***NAAJ***           | [review](https://github.com/kwoongbae/risk-management-papers/issues/32) / [code (R)](https://github.com/kwoongbae/risk-management-papers/blob/main/code/Eling_and_Schnell_NAAJ_2020.r) |
+    | [Eling and Schnell (2020)](https://www.tandfonline.com/doi/abs/10.1080/10920277.2019.1641416) | ***NAAJ***           | [review](https://github.com/kwoongbae/risk-management-papers/issues/32) / [code](./code/Eling_and_Schnell_NAAJ_2020.r) |
   
 - **(시스템적) 사이버 리스크 관련 문헌**
 
