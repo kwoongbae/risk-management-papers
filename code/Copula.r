@@ -9,6 +9,7 @@ library(mvtnorm)
 library(ggplot2)
 library(ggExtra)
 library(sn)
+library(fitdistrplus)
 
 # ===================================================
 # normal margins
@@ -28,6 +29,7 @@ q2 <- function(p) qunif(p)
 ns <- 1000; rho = 0.7
 sim <- sim.GC(n = ns, rho = rho,q1,q2)
 df <- data.frame(x = sim[,1], y = sim[,2])
+  #plotdist(df$x)
 p <- ggplot(df, aes(x, y)) + geom_point() + theme(axis.text.x = element_text(size = 14), axis.text.y = element_text(size = 14)) +
   xlab("X") + ylab("Y") + ggtitle(expression(paste(rho, "=0.5")))
 ggExtra::ggMarginal(p, type = "histogram")
