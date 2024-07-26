@@ -1,23 +1,26 @@
 # ============================================================
 # Import libraries and SAS OpRisk Global dataset
 # ============================================================
-install.packages("psych")
+install.packages("evmix")
 
 library("rlang")
 library("ggplot2")
 library("MASS") # import plotdist
 library("fitdistrplus") #fitdist
 library("POT") # import fitgpd
-library("quantmod")
+#library("quantmod")
 library("lubridate")
 library("evmix")
 library("psych")
 
+getwd()
 sas <- read.csv("../../dataset/SAS.csv")
 sas$Month...Year.of.Settlement <- ymd(sas$Month...Year.of.Settlement)
 sas <- subset(sas, Month...Year.of.Settlement < ymd("2015-01-01"))
 sas <- subset(sas, Month...Year.of.Settlement > ymd("1995-01-01"))
 sas <- sas[sas$cyber_risk==1,]
+length(sas$Reference.ID.Code)
+
 length(sas$Loss.Amount...M.) # Length is 1593
 colnames(sas)
 describe(sas$Loss.Amount...M.)
@@ -150,6 +153,8 @@ nbinom.est <- fitdist(final.freq$num, "nbinom")
 nbinom.est
 
 ### (1)-2 estimate the severity distribution
+plotdist(log(sas$Loss.Amount...M.))
+
 threshold <- 2
 loss.body <- sas$Loss.Amount...M.[sas$Loss.Amount...M.<threshold]
 loss.tail <- sas$Loss.Amount...M.[sas$Loss.Amount...M.>= threshold]
@@ -187,6 +192,8 @@ for (i in 1:num_simulations){
   total_losses[i] <- sum(Z)
 }
 X <- total_losses
+plotdist(X)
+
 
 # (5) summary
 mean(Z) # in paper, 43.9
@@ -198,15 +205,135 @@ sd(X) # in paper, std(X) is 116.4
 quantile(X, 0.995)
 mean(X[X > quantile(X, 0.99)])
 
-
-
-
 # ============================================================
 # Clayton copula
 # ============================================================
+library("copula")
 
 
-# To be continued...
+
+theta <- 2  # theta > 0 for Clayton copula
+
+# Create a Clayton copula object
+clayton_copula <- claytonCopula(theta)
+
+# Generate random samples from the Clayton copula
+# Let's say we want to generate 1000 samples of 2-dimensional data
+set.seed(123)  # For reproducibility
+samples <- rCopula(1000, clayton_copula)
+plot(samples, main = "Samples from Clayton Copula", xlab = "U1", ylab = "U2")
+
+
+data <- mvrnorm(1000, mu = c(0, 0), Sigma = matrix(c(1, 0.5, 0.5, 1), 2))
+data
+# Transform the data to pseudo-observations
+u <- pobs(data)
+u
+# Fit a Clayton copula to the data
+fit <- fitCopula(claytonCopula(), u, method = "ml")
+
+# Display the fitting result
+summary(fit)
+
+
+
+
+
+
+cdf_function <- function(x) {
+  ifelse(x < 0, 0, 1 - exp(-x))
+}
+
+# Numerical differentiation to get PDF
+pdf_function <- function(x, delta = 1e-5) {
+  (cdf_function(x + delta) - cdf_function(x - delta)) / (2 * delta)
+}
+
+# Example usage
+x_values <- seq(0, 5, by = 0.1)
+pdf_values <- sapply(x_values, pdf_function)
+plotdist(pdf_values)
+
+
+# Plotting the PDF
+plot(x_values, pdf_values, type = "l", col = "blue", lwd = 2,
+     main = "PDF derived from CDF",
+     xlab = "x", ylab = "Density")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+library(copula)
+library(mvtnorm)
+library(ggplot2)
+
+# 첫 번째 변수의 로그정규분포 모수
+mu1 <- 0
+sigma1 <- 0.2
+
+# 두 번째 변수의 로그정규분포 모수
+mu2 <- 1
+sigma2 <- 0.5
+
+# Clayton Copula 설정
+theta <- 2  # Clayton Copula의 매개변수
+clayton_copula <- claytonCopula(param = theta, dim = 2)
+
+# 샘플 사이즈 설정
+sample_size <- 10000
+
+# Copula를 이용하여 의존 구조가 있는 샘플 생성
+u <- rCopula(sample_size, clayton_copula)
+
+# 마진 분포를 이용하여 샘플 변환
+x1 <- qlnorm(u[,1], meanlog = mu1, sdlog = sigma1)
+x2 <- qlnorm(u[,2], meanlog = mu2, sdlog = sigma2)
+
+# 결합 데이터
+data <- data.frame(x1 = x1, x2 = x2)
+
+# 2D 히트맵을 이용한 결합 분포 시각화
+ggplot(data, aes(x = x1, y = x2)) +
+  geom_bin2d(bins = 50) +
+  scale_fill_gradient(low = "white", high = "blue") +
+  labs(title = "Joint Distribution of Lognormal Variables with Clayton Copula",
+       x = "Variable 1",
+       y = "Variable 2") +
+  theme_minimal()
+
+# CDF 계산
+cdf_values <- apply(data, 1, function(row) {
+  pCopula(c(qlnorm(pnorm(row[1], meanlog = mu1, sdlog = sigma1)),
+            qlnorm(pnorm(row[2], meanlog = mu2, sdlog = sigma2))), clayton_copula)
+})
+cdf_values
+# CDF 시각화
+ggplot(data, aes(x = x1, y = x2, color = cdf_values)) +
+  geom_point() +
+  scale_color_gradient(low = "blue", high = "red") +
+  labs(title = "CDF of Lognormal Variables with Clayton Copula",
+       x = "Variable 1",
+       y = "Variable 2",
+       color = "CDF") +
+  theme_minimal()
+
 
 
 
