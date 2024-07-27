@@ -1,14 +1,14 @@
 # ============================================================
 # Import libraries and SAS OpRisk Global dataset
 # ============================================================
-install.packages("evmix")
+install.packages("quantmod")
 
 library("rlang")
 library("ggplot2")
 library("MASS") # import plotdist
 library("fitdistrplus") #fitdist
 library("POT") # import fitgpd
-#library("quantmod")
+library("quantmod")
 library("lubridate")
 library("evmix")
 library("psych")
@@ -65,6 +65,12 @@ points(insurance_sas$op, insurance_sas$Loss.Amount...M., col = "black")
 
 cnt <- sum(insurance_sas$op < insurance_sas$Loss.Amount...M.)
 cnt # the number of underestimated cases is 3
+
+
+
+
+
+
 
 # ============================================================
 # Underwriting Cyber Risk
@@ -205,36 +211,88 @@ sd(X) # in paper, std(X) is 116.4
 quantile(X, 0.995)
 mean(X[X > quantile(X, 0.99)])
 
+
 # ============================================================
 # Clayton copula
 # ============================================================
+num_simulations <- 50
+
+for (i in 1:num_simulations) {
+  # 코퓰라 샘플 생성
+  copula_samples <- rCopula(1, clayton_copula)
+  
+  # 빈도 샘플 생성 (음이항 분포)
+  N <- qnbinom(copula_samples[, 1], size = nbinom.est$estimate["size"], mu = nbinom.est$estimate["mu"]) + 1
+  
+  # 심도 샘플 생성 (로그-정규 + GPD)
+  if (N > 0) {
+    Z <- rlognormgpd(N,
+                     lnmean = lnorm_model$estimate["meanlog"],
+                     lnsd = lnorm_model$estimate["sdlog"],
+                     u = 2,
+                     sigmau = gpd.model$fitted.values["scale"],
+                     xi = gpd.model$fitted.values["shape"])
+    total_losses[i] <- sum(Z)
+  } else {
+    total_losses[i] <- 0
+  }
+}
+
+total_losses
+threshold
+# 생존 확률 계산
+survival_probability <- mean(total_losses < threshold)
+
+# 결과 출력
+cat("Survival Probability with Clayton Copula (correlation 0.2):", survival_probability, "\n")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ---------------------------------------------------------------------------
 library("copula")
+?claytonCopula
+clayton_object <- claytonCopula(param = 0.5, dim=2) 
+# with dependency parameter corresponding to a correlation of 0.2
+# tau is 0.2, so theta is 0.5
+clayton_object
+
+
+copula_samples <- rCopula(1000, clayton_object)
+q <- qnbinom(copula_samples[,1]
+             , size=nbinom.est$estimate["size"]
+             , mu=nbinom.est$estimate["mu"] )
+
+losses <- sapply(q, function(n) sum(sample(Y, n, replace = TRUE)))
+
+plotdist(losses)
 
 
 
-theta <- 2  # theta > 0 for Clayton copula
-
-# Create a Clayton copula object
-clayton_copula <- claytonCopula(theta)
-
-# Generate random samples from the Clayton copula
-# Let's say we want to generate 1000 samples of 2-dimensional data
-set.seed(123)  # For reproducibility
-samples <- rCopula(1000, clayton_copula)
-plot(samples, main = "Samples from Clayton Copula", xlab = "U1", ylab = "U2")
 
 
-data <- mvrnorm(1000, mu = c(0, 0), Sigma = matrix(c(1, 0.5, 0.5, 1), 2))
-data
-# Transform the data to pseudo-observations
-u <- pobs(data)
-u
-# Fit a Clayton copula to the data
-fit <- fitCopula(claytonCopula(), u, method = "ml")
-
-# Display the fitting result
-summary(fit)
-
+  
 
 
 
