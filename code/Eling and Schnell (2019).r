@@ -1,6 +1,11 @@
-# ============================================================
+# =====================================================================================================
 # Import libraries and SAS OpRisk Global dataset
-# ============================================================
+# SAS dataset, length is 1758
+
+# Statistics of Loss amount
+# Min     1st Qu.     Median    Mean     3rd Qu.     Max.
+# 0.100   0.383       1.395     36.274   6.795       12180.700
+# =====================================================================================================
 install.packages("quantmod")
 
 library("rlang")
@@ -24,10 +29,13 @@ length(sas$Reference.ID.Code)
 length(sas$Loss.Amount...M.) # Length is 1593
 colnames(sas)
 describe(sas$Loss.Amount...M.)
+summary(sas$Loss.Amount...M.)
 
-# ============================================================
+# =====================================================================================================
 # Operational Cyber Risk
-# ============================================================
+# cyber risk on insurance company
+# =====================================================================================================
+
 unique(sas$Basel.Business.Line...Level.1)
 
 insurance_sas <- sas[sas$Basel.Business.Line...Level.1=="Insurance",]
@@ -69,15 +77,12 @@ cnt # the number of underestimated cases is 3
 
 
 
-
-
-
-# ============================================================
+# =====================================================================================================
 # Underwriting Cyber Risk
 # s = coefficients of volatility
 # v = volume measure. E[X]/b
 # scr = 3sv
-# ============================================================
+# =====================================================================================================
 
 # CALCULATE THE COEFFICIENT OF VOLATILITY
 # (1) summarize the coeffcients referred by EC(2015)
@@ -212,11 +217,18 @@ quantile(X, 0.995)
 mean(X[X > quantile(X, 0.99)])
 
 
-# ============================================================
+# =====================================================================================================
 # Clayton copula
-# ============================================================
-num_simulations <- 50
+# =====================================================================================================
 
+
+library(copula)
+
+theta <- 0.5  # 상관계수 0.2에 대응하는 클레이튼 코퓰라 파라미터
+clayton_copula <- claytonCopula(param = theta, dim = 2)
+
+
+num_simulations <- 50
 for (i in 1:num_simulations) {
   # 코퓰라 샘플 생성
   copula_samples <- rCopula(1, clayton_copula)
@@ -238,13 +250,7 @@ for (i in 1:num_simulations) {
   }
 }
 
-total_losses
-threshold
-# 생존 확률 계산
-survival_probability <- mean(total_losses < threshold)
-
-# 결과 출력
-cat("Survival Probability with Clayton Copula (correlation 0.2):", survival_probability, "\n")
+plotdist(total_losses)
 
 
 
@@ -270,7 +276,7 @@ cat("Survival Probability with Clayton Copula (correlation 0.2):", survival_prob
 
 
 
-# ---------------------------------------------------------------------------
+# examples codes ---------------------------------------------------------------------------
 library("copula")
 ?claytonCopula
 clayton_object <- claytonCopula(param = 0.5, dim=2) 
