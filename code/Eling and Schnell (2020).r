@@ -208,6 +208,10 @@ max(sas$Loss.Amount...M.) # 12180.7
 skew(sas$Loss.Amount...M.) # 28.62
 kurtosis(sas$Loss.Amount...M.) # 980.7526
 
+sev_trun <- pmin(sas$Loss.Amount...M., 50)
+describe(sev_trun)
+quantile(sev_trun, probs = 0.995)
+
 
 threshold <- 2
 loss.body <- sas$Loss.Amount...M.[sas$Loss.Amount...M.<threshold]
@@ -234,7 +238,7 @@ summary(sas$Loss.Amount...M.)
 # 2. truncate and LDA
 N <- final.freq$num
 Z <- sas$Loss.Amount...M.
-Z_truncated <- pmin(Z, 50)
+Z_truncated <- pmin(Z, 200)
 mean(Z_truncated)
 
 set.seed(123)
@@ -243,7 +247,7 @@ simulated_losses <- numeric(num_simulations)
 
 for (i in 1:num_simulations){
   freq <- sample(N, 1)
-  sev <- sample(Z_truncated, freq, replace = TRUE)
+  sev <- sample(Z, freq, replace = TRUE)
   simulated_losses[i] <- sum(sev)
 }
 

@@ -5,11 +5,11 @@ setwd("../../05. 개인자료/01. 깃허브 레포지토리/risk-management-pape
 getwd()
 
 library("rlang")
+library("dplyr")
 library("ggplot2")
 library("MASS") # import plotdist
 library("fitdistrplus") #fitdist
 library("lubridate") # transform to ymd
-library("EnvStats") # import eexp
 library("POT") # import fitgpd
 library("extraDistr")
 library("actuar") # fitdist on log-logistic
@@ -30,11 +30,21 @@ length(usa_advisen$ACD) # 129,317
 # (xi) NAICS code identifying the sector of the firm that suffered the cyber incident; 
 # (xii) geography 
 
-col <- c(16, 48, 22, 41, 42, 38, 39, 110, 158, 159, 133, 163, 10)
+col <- c(16, 48, 22, 41, 42, 38, 39, 110, 158, 159, 133, 163, 10, 123)
 colnames(advisen)[col]
 extracted_advisen <- usa_advisen[, col]
+colnames(extracted_advisen)
 
-target_col <- c(1, 8)
-target_colnames <- colnames(advisen)[target_col]
-existing_cols <- target_colnames[target_colnames %in% colnames(extracted_advisen)]
-length(clean_extracted_advisen$CASE_TYPE)
+final_advisen <- extracted_advisen %>%
+  filter(!is.na(TOTAL_AMOUNT) & !is.na(ACCIDENT_DATE) & !is.na(REVENUES) & !is.na(EMPLOYEES)
+         & !is.na(CASE_TYPE) & !is.na(PROXIMATE_CAUSE) & !is.na(ACTOR_NAME) 
+         & !is.na(COMPANY_TYPE) & !is.na(NAIC_SECTOR_DESC))
+length(final_advisen$AFFECTED_COUNT)
+
+head(data.frame(table(final_advisen$RELATED_ID)))
+summary(data.frame(table(final_advisen$RELATED_ID))$Freq)
+# Min.    1st Qu. Median  Mean    3rd Qu.  Max. 
+# 1.000   1.000   1.000   1.127   1.000    65.000 
+sd(data.frame(table(final_advisen$RELATED_ID))$Freq)
+# 1.44 
+
