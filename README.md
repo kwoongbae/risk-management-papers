@@ -24,7 +24,7 @@
     | [Aldasoro et al. (2022)](https://www.sciencedirect.com/science/article/abs/pii/S1572308922000171) | ***JFS***           |                                               | [review](./review/Aldasoro_JRS_2022.pdf)                     |
     | [Awiszus et al. (2023)](https://arxiv.org/abs/2211.04762)    | ***JRI***           | [ppt (240125)](./review/Seminar_20240125.pdf) |                                                              |
     | [Bobtcheff et al. (2016)](https://link.springer.com/article/10.1057/grir.2016.1) | ***GPRI***          | [ppt (240524)](./review/Seminar_20240524.pdf) |                                                              |
-    | [Eling and Wirfs (2019)](https://www.sciencedirect.com/science/article/pii/S037722171830626X) | ***EJOR***          |                                               | [code (replication)](https://github.com/kwoongbae/risk-management-papers/blob/main/code/Eling%20et%20al%20(2019).r) |
+    | [Eling and Wirfs (2019)](https://www.sciencedirect.com/science/article/pii/S037722171830626X) | ***EJOR***          |                                               | [code (replication)](https://github.com/kwoongbae/risk-management-papers/blob/main/code/Eling%20and%20Wirfs%20(2019).r) |
     | [Welburn and Strong (2021)](https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.13715) | ***Risk Analysis*** | [ppt (240321)](./review/Seminar_20240321.pdf) |                                                              |
 
 ---
