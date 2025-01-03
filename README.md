@@ -15,23 +15,24 @@
     | [Alm (2015)](https://www.tandfonline.com/doi/abs/10.1080/03461238.2013.787367) | ***SAJ***  | [ppt (240626)](./review/Seminar_20240626.pdf) | [review](https://github.com/kwoongbae/risk-management-papers/issues/36) |
     | [Bermúdez et al. (2013)](https://www.cambridge.org/core/journals/astin-bulletin-journal-of-the-iaa/article/correlation-sensitivity-analysis-of-nonlife-underwriting-risk-in-solvency-capital-requirement-estimation/8C16299AF4E9DFCD13C5C7EA3697705E) | ***AB***   |                                               | [review](https://github.com/kwoongbae/risk-management-papers/issues/37) |
     | [Eling and Jung (2020)](https://www.sciencedirect.com/science/article/abs/pii/S016766872030130X) | ***IME***  |                                               | [review](https://github.com/kwoongbae/risk-management-papers/issues/38) |
-    | [Eling and Schnell (2019)](https://www.tandfonline.com/doi/abs/10.1080/10920277.2019.1641416) | ***NAAJ*** |                                               | [review](https://github.com/kwoongbae/risk-management-papers/issues/32) / [code (replication)](https://github.com/kwoongbae/risk-management-papers/blob/main/code/Eling%20and%20Schnell%20(2019).r) / [code (clayton copula)](https://github.com/kwoongbae/risk-management-papers/blob/main/code/Clayton%20copula.r) |
+    | [Eling and Schnell (2020)](https://www.tandfonline.com/doi/abs/10.1080/10920277.2019.1641416) | ***NAAJ*** |                                               | [review](https://github.com/kwoongbae/risk-management-papers/issues/32) / [code (replication)](https://github.com/kwoongbae/risk-management-papers/blob/main/code/Eling%20and%20Schnell%20(2020).r) / [code (clayton copula)](https://github.com/kwoongbae/risk-management-papers/blob/main/code/Clayton%20copula.r) |
   
 - **(시스템적) 사이버 리스크 관련 문헌**
 
   - | Reference                                                    | Journal             | Review (full / eng ver.)                      | Review (supplementary)                                       |
     | ------------------------------------------------------------ | ------------------- | --------------------------------------------- | ------------------------------------------------------------ |
     | [Aldasoro et al. (2022)](https://www.sciencedirect.com/science/article/abs/pii/S1572308922000171) | ***JFS***           |                                               | [review](./review/Aldasoro_JRS_2022.pdf)                     |
-    | [Awiszus et al. (2023)](https://arxiv.org/abs/2211.04762)    | ***JRI***           | [ppt (240125)](./review/Seminar_20240125.pdf) |                                                              |
+    | [Awiszus et al. (2024)](https://arxiv.org/abs/2211.04762)    | ***JRI***           | [ppt (240125)](./review/Seminar_20240125.pdf) |                                                              |
     | [Bobtcheff et al. (2016)](https://link.springer.com/article/10.1057/grir.2016.1) | ***GPRI***          | [ppt (240524)](./review/Seminar_20240524.pdf) |                                                              |
     | [Eling and Wirfs (2019)](https://www.sciencedirect.com/science/article/pii/S037722171830626X) | ***EJOR***          |                                               | [code (replication)](https://github.com/kwoongbae/risk-management-papers/blob/main/code/Eling%20and%20Wirfs%20(2019).r) |
-    | [Welburn and Strong (2021)](https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.13715) | ***Risk Analysis*** | [ppt (240321)](./review/Seminar_20240321.pdf) |                                                              |
+    | [Welburn and Strong (2022)](https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.13715) | ***Risk Analysis*** | [ppt (240321)](./review/Seminar_20240321.pdf) |                                                              |
   
 - **Epidemic model on actuarial applications**
 
-  - | Reference                                                    | Journal  | Review (full / eng ver.) | Review (supplementary) |
-    | ------------------------------------------------------------ | -------- | ------------------------ | ---------------------- |
-    | [Tran (2024)](https://www.cambridge.org/core/journals/astin-bulletin-journal-of-the-iaa/article/markov-multiple-state-model-for-epidemic-and-insurance-modelling/361E1E90ADEDFDBA73613BD9D5DEA926) | ***AB*** |                          |                        |
+  - | Reference                                                    | Journal   | Review (full / eng ver.) | Review (supplementary)                                       |
+    | ------------------------------------------------------------ | --------- | ------------------------ | ------------------------------------------------------------ |
+    | [Hillairet and Lopez (2021)](https://www.tandfonline.com/doi/abs/10.1080/03461238.2021.1872694) | ***SAJ*** |                          | [code (replication)](https://github.com/kwoongbae/risk-management-papers/blob/main/code/Hillairet%20and%20Lopez%20(2021).r) |
+    | [Tran (2024)](https://www.cambridge.org/core/journals/astin-bulletin-journal-of-the-iaa/article/markov-multiple-state-model-for-epidemic-and-insurance-modelling/361E1E90ADEDFDBA73613BD9D5DEA926) | ***AB***  |                          |                                                              |
 
 - **보험분야 용어**
 
