@@ -17,9 +17,12 @@ library("fGarch") # snormFit
 library("stringr") #str_replace_all
 library("psych")
 library("goftest")
+library("evir")
+library("mev")
+
 
 getwd()
-sas <- read.csv("../../dataset/SAS.csv")
+sas <- read.csv("../../../../05. 개인자료/01. 깃허브 레포지토리/dataset/SAS.csv")
 length(sas$Reference.ID.Code)
 sas$Month...Year.of.Settlement <- ymd(sas$Month...Year.of.Settlement)
 sas <- subset(sas, Month...Year.of.Settlement < ymd("2014-03-01"))
@@ -206,7 +209,7 @@ ks_test_negbinom
 
 
 # ==============================================================================
-# Goodness-of-fit (Severity distribution)
+# Goodness-of-fit (Severity distribution, POT 100%)
 # ==============================================================================
 
 Z <- cyber_risk$Loss.Amount...M.
@@ -224,8 +227,6 @@ describe(Z)
 # 24170(24962) 75.2(98.52) 721.27(1154.39) 4.1(5.09) 40.66(49.95) 2398.34(3388.69)
 # ------------------------------------------------------------------------------
 
-
-# POT 100%
 exp_fit <- fitdist(Z, "exp")
 summary(exp_fit)
 
@@ -307,6 +308,164 @@ ad_gamma
 # weibull --> KS: 0.11***(0.10***), AD: (6.30***)
 # ------------------------------------------------------------------------------
 
+
+# ==============================================================================
+# Goodness-of-fit (Severity distribution, POT 90%)
+# ==============================================================================
+
+Z <- cyber_risk$Loss.Amount...M.
+threshold <- quantile(Z, 0.90)
+threshold
+
+body <- Z[Z<=threshold]
+tail <- Z[Z>threshold]
+
+
+# tail on GPD distribution
+pareto_fit_tail1 <- fitdist(tail, "pareto")
+pareto_fit_tail2 <- fitdist(tail - threshold, "pareto")
+gpd_fit_tail1 <- fit.gpd(tail, threshold <- threshold)
+gpd_fit_tail2 <- fit.gpd(tail - threshold, threshold <- threshold)
+gpd_fit_tail3 <- fit.gpd(tail - threshold, threshold <- 0)
+library("extRemes")
+gpd_fit_tail4 <- fevd(tail)
+gpd_fit_tail4
+
+# exp
+exp_fit_body <- fitdist(body, "exp")
+
+exp_fit_body$loglik + pareto_fit_tail1$loglik
+exp_fit_body$loglik + pareto_fit_tail2$loglik
+exp_fit_body$loglik - gpd_fit_tail1$nllh
+exp_fit_body$loglik - gpd_fit_tail2$nllh
+exp_fit_body$loglik - gpd_fit_tail3$nllh
+exp_fit_body$loglik - 1182.819
+
+exp_aic <- exp_fit_body$aic+gpd_fit_tail$aic
+c(exp_loglik, exp_aic)
+
+
+# gamma
+gamma_fit_body <- fitdist(body, "gamma")
+
+gamma_fit_body$loglik + pareto_fit_tail1$loglik
+gamma_fit_body$loglik + pareto_fit_tail2$loglik
+gamma_fit_body$loglik - gpd_fit_tail1$nllh
+gamma_fit_body$loglik - gpd_fit_tail2$nllh
+# gamma_aic <- gamma_fit_body$aic+pareto_fit_tail$aic
+# gamma_aic
+
+?fevd
+
+# pareto
+pareto_fit_body <- fitdist(body, "pareto")
+
+pareto_fit_body$loglik + pareto_fit_tail1$loglik
+pareto_fit_body$loglik + pareto_fit_tail2$loglik
+pareto_fit_body$loglik - gpd_fit_tail1$nllh
+pareto_fit_body$loglik - gpd_fit_tail2$nllh
+
+# pareto_aic <- pareto_fit_body$aic+pareto_fit_tail$aic
+# pareto_aic
+
+# log-logistic
+llogis_fit_body <- fitdist(body, "llogis")
+
+llogis_fit_body$loglik + pareto_fit_tail1$loglik
+llogis_fit_body$loglik + pareto_fit_tail2$loglik
+llogis_fit_body$loglik - gpd_fit_tail1$nllh
+llogis_fit_body$loglik - gpd_fit_tail2$nllh
+
+# llogis_aic <- llogis_fit_body$aic+pareto_fit_tail$aic
+# llogis_aic
+
+# log-normal
+lnorm_fit_body <- fitdist(body, "lnorm")
+
+lnorm_fit_body$loglik + pareto_fit_tail1$loglik
+lnorm_fit_body$loglik + pareto_fit_tail2$loglik
+lnorm_fit_body$loglik - gpd_fit_tail1$nllh
+lnorm_fit_body$loglik - gpd_fit_tail2$nllh
+
+# lnorm_loglik <- lnorm_fit_body$loglik-1243.002
+# lnorm_loglik
+# lnorm_aic <- lnorm_fit_body$aic+pareto_fit_tail2$aic
+# lnorm_aic
+
+# weibull
+weibull_fit_body <- fitdist(body, "weibull")
+
+weibull_fit_body$loglik + pareto_fit_tail1$loglik
+weibull_fit_body$loglik + pareto_fit_tail2$loglik
+weibull_fit_body$loglik - gpd_fit_tail1$nllh
+weibull_fit_body$loglik - gpd_fit_tail2$nllh
+
+
+# weibull_aic <- weibull_fit_body$aic+pareto_fit_tail$aic
+# weibull_aic
+
+# ------------------------------------------------------------------------------
+### cyber risk ###
+# exp --> loglik: -9234.825(-7535.78), AIC: 18471.65(15073.55)
+# gamma --> loglik: -6382.122(-5368.23), AIC: 12768.24(10740.46)
+# pareto --> loglik: -5392.887(-4553.42), AIC: 10789.77(9110.84)
+# llogis --> loglik: -5444.353(-4591.40), AIC: 10892.71(9186.80)
+# lnorm --> loglik: -5445.872(-4588.09), AIC: 10895.74(9180.19)
+# weibull --> loglik: -5795.983(-4886.78), AIC: 11595.97(9777.57)
+
+### non-cyber risk ###
+# exp --> loglik: -131459.8(-139542.80), AIC: 262921.7(279087.60)
+# gamma --> loglik: -103077.6(-109184.80), AIC: 206159.3(218373.60)
+# pareto --> loglik: -93659.64(-99438.54), AIC: 187321.3(198881.10)
+# llogis --> loglik: -93849.27(-99572.73), AIC: 187702.5(199149.50)
+# lnorm --> loglik: -93542.97(-99258.09), AIC: 187089.9(198520.20)
+# weibull --> loglik: -96912.94(-102587.30), AIC: 193829.9(205178.60)
+# ------------------------------------------------------------------------------
+
+### Test ###
+
+# Kolmogorov-Smirnov-test
+ks_exp <- ks.test(Z, "pexp", exp_fit$estimate["rate"])
+ks_exp
+ks_gamma <- ks.test(Z, "pgamma", shape=gamma_fit$estimate["shape"],
+                    rate=gamma_fit$estimate["rate"])
+ks_gamma
+ks_pareto <- ks.test(Z, "ppareto", shape=pareto_fit$estimate["shape"],
+                     scale=pareto_fit$estimate["scale"])
+ks_pareto
+ks_llogis <- ks.test(Z, "pllogis", shape=llogis_fit$estimate["shape"],
+                     scale=llogis_fit$estimate["scale"])
+ks_llogis
+ks_lnorm <- ks.test(Z, "plnorm", meanlog=lnorm_fit$estimate["meanlog"],
+                    sdlog=lnorm_fit$estimate["sdlog"])
+ks_lnorm
+ks_weibull <- ks.test(Z, "pweibull", shape=weibull_fit$estimate["shape"],
+                      scale=weibull_fit$estimate["scale"])
+ks_weibull
+
+# Anderson-Darling-test
+ad_exp <- ad.test(Z, null = "pexp", rate = exp_fit$estimate["rate"])
+ad_exp
+ad_gamma <- ad.test(Z, null = "pgamma", shape = gamma_fit$estimate["shape"], rate = gamma_fit$estimate["rate"])
+ad_gamma
+
+# ------------------------------------------------------------------------------
+### cyber risk ###
+# exp --> KS: 0.63***(0.60***), AD: (79.94***)
+# gamma --> KS: 0.25***(0.24***), AD: (18.79***)
+# pareto --> KS: 0.06***(0.07***), AD: (7.18***)
+# llogis --> KS: 0.08***(1.00***), AD: (13.22***)
+# lnorm --> KS: 0.08***(0.08***), AD: (16.99***)
+# weibull --> KS: 0.17***(0.16***), AD: (60.20***)
+
+### non-cyber risk ###
+# exp --> KS: 0.53***(0.54***), AD: (58.75***)
+# gamma --> KS: 0.21***(0.21***), AD: (13.10***)
+# pareto --> KS: 0.03***(0.03***), AD: (50.27***)
+# llogis --> KS: 0.04***(1.00***), AD: (61.63***)
+# lnorm --> KS: 0.04***(0.03***), AD: (54.86***)
+# weibull --> KS: 0.11***(0.10***), AD: (6.30***)
+# ------------------------------------------------------------------------------
 
 
 # ==============================================================================

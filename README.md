@@ -26,6 +26,19 @@
     | [Bobtcheff et al. (2016)](https://link.springer.com/article/10.1057/grir.2016.1) | ***GPRI***          | [ppt (240524)](./review/Seminar_20240524.pdf) |                                                              |
     | [Eling and Wirfs (2019)](https://www.sciencedirect.com/science/article/pii/S037722171830626X) | ***EJOR***          |                                               | [code (replication)](https://github.com/kwoongbae/risk-management-papers/blob/main/code/Eling%20and%20Wirfs%20(2019).r) |
     | [Welburn and Strong (2021)](https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.13715) | ***Risk Analysis*** | [ppt (240321)](./review/Seminar_20240321.pdf) |                                                              |
+  
+- **Epidemic model on actuarial applications**
+
+  - | Reference                                                    | Journal  | Review (full / eng ver.) | Review (supplementary) |
+    | ------------------------------------------------------------ | -------- | ------------------------ | ---------------------- |
+    | [Tran (2024)](https://www.cambridge.org/core/journals/astin-bulletin-journal-of-the-iaa/article/markov-multiple-state-model-for-epidemic-and-insurance-modelling/361E1E90ADEDFDBA73613BD9D5DEA926) | ***AB*** |                          |                        |
+
+- **보험분야 용어**
+
+  - | Title               | Keywords                        | Review                                        |
+    | ------------------- | ------------------------------- | --------------------------------------------- |
+    | 10. 통합리스크 관리 | RBC, Correlation, Copula        | [ppt (240924)](./review/Seminar_20240924.pdf) |
+    | 14. 책임준비금 산정 | 책임준비금, Chain-ladder method | [ppt (241105)](./review/Seminar_20241105.pdf) |
 
 ---
 
