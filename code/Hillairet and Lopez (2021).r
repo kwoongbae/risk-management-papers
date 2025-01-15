@@ -1,15 +1,14 @@
 library(deSolve)
 
-# 파라미터 설정
+
 beta <- 2.556e-7   # 감염률
 gamma <- 1         # 회복률
 N <- 4064279       # 전체 인구 수
 initial_infected <- 30100  # 초기 감염자 수
 
-# 초기 조건 설정
 init <- c(S = N - initial_infected, I = initial_infected, R = 0)
 
-# SIR 모델 정의
+
 SIR <- function(time, state, parameters) {
   with(as.list(c(state, parameters)), {
     dS <- -beta * S * I
@@ -19,17 +18,17 @@ SIR <- function(time, state, parameters) {
   })
 }
 
-# 시뮬레이션 시간 범위 설정
+
 times <- seq(0, 10, by = 0.001)
 
-# 파라미터 설정
+
 parameters <- c(beta = beta, gamma = gamma)
 
-# SIR 모델 시뮬레이션 실행
+
 out <- ode(y = init, times = times, func = SIR, parms = parameters)
 sir_df <- as.data.frame(out)
+tail(sir_df)
 
-# 그래프 그리기
 plot(sir_df$time, sir_df$S, type = "l", col = "blue", lwd = 2, ylim = c(0, N),
      xlab = "Time (Days)", ylab = "Number of People",
      main = "SIR Model (Hillairet and Lopez, 2021)")
@@ -39,6 +38,15 @@ lines(sir_df$time, sir_df$R, col = "green", lwd = 2)
 # 범례 추가
 legend("right", legend = c("Susceptible", "Infected", "Recovered"), 
        col = c("blue", "red", "green"), lwd = 2)
+
+
+
+
+
+
+
+
+
 
 
 

@@ -29,10 +29,10 @@
   
 - **Epidemic model on actuarial applications**
 
-  - | Reference                                                    | Journal   | Review (full / eng ver.) | Review (supplementary)                                       |
-    | ------------------------------------------------------------ | --------- | ------------------------ | ------------------------------------------------------------ |
-    | [Hillairet and Lopez (2021)](https://www.tandfonline.com/doi/abs/10.1080/03461238.2021.1872694) | ***SAJ*** |                          | [code (replication)](https://github.com/kwoongbae/risk-management-papers/blob/main/code/Hillairet%20and%20Lopez%20(2021).r) |
-    | [Tran (2024)](https://www.cambridge.org/core/journals/astin-bulletin-journal-of-the-iaa/article/markov-multiple-state-model-for-epidemic-and-insurance-modelling/361E1E90ADEDFDBA73613BD9D5DEA926) | ***AB***  |                          |                                                              |
+  - | Reference                                                    | Journal   | Review (full / eng ver.)                      | Review (supplementary)                                       |
+    | ------------------------------------------------------------ | --------- | --------------------------------------------- | ------------------------------------------------------------ |
+    | [Hillairet and Lopez (2021)](https://www.tandfonline.com/doi/abs/10.1080/03461238.2021.1872694) | ***SAJ*** |                                               | [code (replication)](https://github.com/kwoongbae/risk-management-papers/blob/main/code/Hillairet%20and%20Lopez%20(2021).r) |
+    | [Tran (2024)](https://www.cambridge.org/core/journals/astin-bulletin-journal-of-the-iaa/article/markov-multiple-state-model-for-epidemic-and-insurance-modelling/361E1E90ADEDFDBA73613BD9D5DEA926) | ***AB***  | [ppt (250114)](./review/Seminar_20250114.pdf) |                                                              |
 
 - **보험분야 용어**
 
