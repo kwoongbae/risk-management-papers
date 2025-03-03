@@ -8,7 +8,7 @@
 ---
 ### 02. Paper Review
 
-- **보험사 규제모형 관련 문헌**
+- **보험사 규제모형 및 요구자본량 관련 문헌**
 
   - | Reference                                                    | Journal    | Review                                     | Review                                                       |
     | ------------------------------------------------------------ | ---------- | :----------------------------------------- | ------------------------------------------------------------ |
@@ -16,6 +16,7 @@
     | [Bermúdez et al. (2013)](https://www.cambridge.org/core/journals/astin-bulletin-journal-of-the-iaa/article/correlation-sensitivity-analysis-of-nonlife-underwriting-risk-in-solvency-capital-requirement-estimation/8C16299AF4E9DFCD13C5C7EA3697705E) | ***AB***   |                                            | [review](https://github.com/kwoongbae/risk-management-papers/issues/37) |
     | [Eling and Jung (2020)](https://www.sciencedirect.com/science/article/abs/pii/S016766872030130X) | ***IME***  |                                            | [review](https://github.com/kwoongbae/risk-management-papers/issues/38) |
     | [Eling and Schnell (2020)](https://www.tandfonline.com/doi/abs/10.1080/10920277.2019.1641416) | ***NAAJ*** |                                            | [review](https://github.com/kwoongbae/risk-management-papers/issues/32) / [code (replication)](https://github.com/kwoongbae/risk-management-papers/blob/main/code/Eling%20and%20Schnell%20(2020).r) / [code (clayton copula)](https://github.com/kwoongbae/risk-management-papers/blob/main/code/Clayton%20copula.r) |
+    | [Fung et al. (2021)](https://www.tandfonline.com/doi/abs/10.1080/10920277.2020.1729813) | ***NAAJ*** | [full ver.](./review/Seminar_20250225.pdf) |                                                              |
   
 - **(시스템적) 사이버 리스크 관련 문헌**
 

@@ -1,8 +1,8 @@
 # ===================================================
 # 1. Import libraries and Advisen dataset
 
-setwd("../../05. 개인자료/01. 깃허브 레포지토리/risk-management-papers/code")
-getwd()
+# setwd("../../05. 개인자료/01. 깃허브 레포지토리/risk-management-papers/code")
+# getwd()
 
 library("rlang")
 library("dplyr")
@@ -16,30 +16,41 @@ library("actuar") # fitdist on log-logistic
 library("sn") # import snormFit
 
 advisen <- read.csv("../../dataset/merged_advisen.csv")
+
 colnames(advisen)
 length(advisen$ACD) # 156,020
 usa_advisen <- advisen[advisen$COUNTRY_CODE=="USA",]
 length(usa_advisen$ACD) # 129,317
 
+usa_advisen <- advisen[advisen$CASESTATUS=="Estimate",]
+length(usa_advisen$ACD) # 129,317
+
+
 # (i) case type (e.g. data breach, phishing); 
 # (ii) affected count (e.g. in the event of a data breach, how many details were stolen);
-# (iii) accident date; (iv) source of the loss; (v) type of loss; 
-# (vi) actor (e.g. state-sponsored, terrorist, etc.); (vii) loss amount; 
+# (iii) accident date; 
+# (iv) source of the loss; 
+# (v) type of loss; 
+# (vi) actor (e.g. state-sponsored, terrorist, etc.); 
+# (vii) loss amount; 
 # (viii) company size (proxied by total revenues); 
-# (ix) company type (e.g. government, private); (x) number of employees; 
+# (ix) company type (e.g. government, private); 
+# (x) number of employees; 
 # (xi) NAICS code identifying the sector of the firm that suffered the cyber incident; 
 # (xii) geography 
 
-col <- c(16, 48, 22, 41, 42, 38, 39, 110, 158, 159, 133, 163, 10, 123)
-colnames(advisen)[col]
+colnames(advisen)
+col <- c("CASE_TYPE", "ACCIDENT_DATE", "ACTOR_TYPE", "TOTAL_AMOUNT", "REVENUES", "COMPANY_TYPE", "EMPLOYEES", "NAIC_SECTOR", "COUNTRY_CODE", "ZIP_x")
+
 extracted_advisen <- usa_advisen[, col]
-colnames(extracted_advisen)
 
 final_advisen <- extracted_advisen %>%
-  filter(!is.na(TOTAL_AMOUNT) & !is.na(ACCIDENT_DATE) & !is.na(REVENUES) & !is.na(EMPLOYEES)
-         & !is.na(CASE_TYPE) & !is.na(PROXIMATE_CAUSE) & !is.na(ACTOR_NAME) 
-         & !is.na(COMPANY_TYPE) & !is.na(NAIC_SECTOR_DESC))
-length(final_advisen$AFFECTED_COUNT)
+  filter(!is.na(CASE_TYPE) & !is.na(ACCIDENT_DATE) & !is.na(ACTOR_TYPE) & !is.na(TOTAL_AMOUNT)
+         & !is.na(REVENUES) & !is.na(COMPANY_TYPE) & !is.na(EMPLOYEES) 
+         & !is.na(NAIC_SECTOR) & !is.na(COUNTRY_CODE))
+
+length(final_advisen$)
+
 
 head(data.frame(table(final_advisen$RELATED_ID)))
 summary(data.frame(table(final_advisen$RELATED_ID))$Freq)
@@ -47,4 +58,7 @@ summary(data.frame(table(final_advisen$RELATED_ID))$Freq)
 # 1.000   1.000   1.000   1.127   1.000    65.000 
 sd(data.frame(table(final_advisen$RELATED_ID))$Freq)
 # 1.44 
+
+
+
 
